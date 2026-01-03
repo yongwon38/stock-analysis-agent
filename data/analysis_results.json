@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-03T15:58:21.881Z",
+  "lastUpdated": "2026-01-03T16:24:20.757Z",
   "results": [
     {
       "stock": {
@@ -2057,13 +2057,19 @@
       },
       "analysis": {
         "symbol": "^VIX",
-        "recommendation": "HOLD",
-        "confidence": 0,
-        "sentimentScore": 50,
-        "summary": "Analysis failed due to an error.",
-        "keyFactors": [],
-        "riskFactors": [],
-        "analyzedAt": "2026-01-03T15:55:46.203Z"
+        "recommendation": "SELL",
+        "confidence": 65,
+        "sentimentScore": 25,
+        "summary": "**AI Analysis Unavailable (Rate Limit/Error)**: Switching to Technical Fallback.\n\nStock shows significant daily decline of -2.94%.",
+        "keyFactors": [
+          "Technical Momentum",
+          "Valuation Check"
+        ],
+        "riskFactors": [
+          "Market Volatility",
+          "Data Limited"
+        ],
+        "analyzedAt": "2026-01-03T16:24:20.757Z"
       }
     },
     {
@@ -4125,12 +4131,18 @@
       "analysis": {
         "symbol": "VUG",
         "recommendation": "HOLD",
-        "confidence": 0,
+        "confidence": 50,
         "sentimentScore": 50,
-        "summary": "Analysis failed due to an error.",
-        "keyFactors": [],
-        "riskFactors": [],
-        "analyzedAt": "2026-01-03T15:55:57.439Z"
+        "summary": "**AI Analysis Unavailable (Rate Limit/Error)**: Switching to Technical Fallback.\n\nStock is relatively flat (-0.34%) today.",
+        "keyFactors": [
+          "Technical Momentum",
+          "Valuation Check"
+        ],
+        "riskFactors": [
+          "Market Volatility",
+          "Data Limited"
+        ],
+        "analyzedAt": "2026-01-03T16:24:20.757Z"
       }
     },
     {
@@ -6192,12 +6204,18 @@
       "analysis": {
         "symbol": "VTV",
         "recommendation": "HOLD",
-        "confidence": 0,
+        "confidence": 50,
         "sentimentScore": 50,
-        "summary": "Analysis failed due to an error.",
-        "keyFactors": [],
-        "riskFactors": [],
-        "analyzedAt": "2026-01-03T15:56:08.463Z"
+        "summary": "**AI Analysis Unavailable (Rate Limit/Error)**: Switching to Technical Fallback.\n\nStock is relatively flat (0.95%) today.",
+        "keyFactors": [
+          "Technical Momentum",
+          "Valuation Check"
+        ],
+        "riskFactors": [
+          "Market Volatility",
+          "Data Limited"
+        ],
+        "analyzedAt": "2026-01-03T16:24:20.757Z"
       }
     },
     {
@@ -8259,12 +8277,18 @@
       "analysis": {
         "symbol": "HYG",
         "recommendation": "HOLD",
-        "confidence": 0,
+        "confidence": 50,
         "sentimentScore": 50,
-        "summary": "Analysis failed due to an error.",
-        "keyFactors": [],
-        "riskFactors": [],
-        "analyzedAt": "2026-01-03T15:56:19.643Z"
+        "summary": "**AI Analysis Unavailable (Rate Limit/Error)**: Switching to Technical Fallback.\n\nStock is relatively flat (0.05%) today.\n\nP/E Ratio appears attractive.",
+        "keyFactors": [
+          "Technical Momentum",
+          "Valuation Check"
+        ],
+        "riskFactors": [
+          "Market Volatility",
+          "Data Limited"
+        ],
+        "analyzedAt": "2026-01-03T16:24:20.757Z"
       }
     },
     {
@@ -8296,19 +8320,19 @@
             "type": "STORY"
           },
           {
-            "uuid": "bca75bc9-7ac6-3a1d-b715-fc93b6b29014",
-            "title": "Stocks Give Up Early Gains as Megacap Tech Shares Fall",
-            "publisher": "Barchart",
-            "link": "https://finance.yahoo.com/m/bca75bc9-7ac6-3a1d-b715-fc93b6b29014/stocks-give-up-early-gains-as.html",
-            "providerPublishTime": "2026-01-02T16:29:44.000Z",
-            "type": "STORY"
-          },
-          {
             "uuid": "9e5cb48d-c699-390e-a47d-ac76d08967b7",
             "title": "Budanov: Enigmatic spy chief set to become Zelensky's top aide",
             "publisher": "AFP",
             "link": "https://finance.yahoo.com/m/9e5cb48d-c699-390e-a47d-ac76d08967b7/budanov%3A-enigmatic-spy-chief.html",
             "providerPublishTime": "2026-01-02T14:21:54.000Z",
+            "type": "STORY"
+          },
+          {
+            "uuid": "bca75bc9-7ac6-3a1d-b715-fc93b6b29014",
+            "title": "Stocks Give Up Early Gains as Megacap Tech Shares Fall",
+            "publisher": "Barchart",
+            "link": "https://finance.yahoo.com/m/bca75bc9-7ac6-3a1d-b715-fc93b6b29014/stocks-give-up-early-gains-as.html",
+            "providerPublishTime": "2026-01-02T16:29:44.000Z",
             "type": "STORY"
           },
           {
@@ -10326,12 +10350,18 @@
       "analysis": {
         "symbol": "SPY",
         "recommendation": "HOLD",
-        "confidence": 0,
+        "confidence": 50,
         "sentimentScore": 50,
-        "summary": "Analysis failed due to an error.",
-        "keyFactors": [],
-        "riskFactors": [],
-        "analyzedAt": "2026-01-03T15:56:31.286Z"
+        "summary": "**AI Analysis Unavailable (Rate Limit/Error)**: Switching to Technical Fallback.\n\nStock is relatively flat (0.18%) today.",
+        "keyFactors": [
+          "Technical Momentum",
+          "Valuation Check"
+        ],
+        "riskFactors": [
+          "Market Volatility",
+          "Data Limited"
+        ],
+        "analyzedAt": "2026-01-03T16:24:20.757Z"
       }
     },
     {
@@ -12393,12 +12423,18 @@
       "analysis": {
         "symbol": "QQQ",
         "recommendation": "HOLD",
-        "confidence": 0,
+        "confidence": 50,
         "sentimentScore": 50,
-        "summary": "Analysis failed due to an error.",
-        "keyFactors": [],
-        "riskFactors": [],
-        "analyzedAt": "2026-01-03T15:56:42.489Z"
+        "summary": "**AI Analysis Unavailable (Rate Limit/Error)**: Switching to Technical Fallback.\n\nStock is relatively flat (-0.19%) today.",
+        "keyFactors": [
+          "Technical Momentum",
+          "Valuation Check"
+        ],
+        "riskFactors": [
+          "Market Volatility",
+          "Data Limited"
+        ],
+        "analyzedAt": "2026-01-03T16:24:20.757Z"
       }
     },
     {
@@ -14460,12 +14496,18 @@
       "analysis": {
         "symbol": "MAGA",
         "recommendation": "HOLD",
-        "confidence": 0,
+        "confidence": 50,
         "sentimentScore": 50,
-        "summary": "Analysis failed due to an error.",
-        "keyFactors": [],
-        "riskFactors": [],
-        "analyzedAt": "2026-01-03T15:56:53.703Z"
+        "summary": "**AI Analysis Unavailable (Rate Limit/Error)**: Switching to Technical Fallback.\n\nStock is relatively flat (0.82%) today.",
+        "keyFactors": [
+          "Technical Momentum",
+          "Valuation Check"
+        ],
+        "riskFactors": [
+          "Market Volatility",
+          "Data Limited"
+        ],
+        "analyzedAt": "2026-01-03T16:24:20.757Z"
       }
     },
     {
@@ -14505,19 +14547,19 @@
             "type": "STORY"
           },
           {
+            "uuid": "e1169e67-2524-3ccc-b665-107561426dfe",
+            "title": "Here’s Why Taiwan Semiconductor Manufacturing Holds the Keys to AI’s Explosive Growth",
+            "publisher": "24/7 Wall St.",
+            "link": "https://finance.yahoo.com/m/e1169e67-2524-3ccc-b665-107561426dfe/here%E2%80%99s-why-taiwan.html",
+            "providerPublishTime": "2026-01-03T15:10:24.000Z",
+            "type": "STORY"
+          },
+          {
             "uuid": "2f89560d-6e0d-3b99-9f73-bc812be418f3",
             "title": "Gavin Newsom Says Trump Making Gaming More Expensive Amid Chip Price Surge",
             "publisher": "Benzinga",
             "link": "https://finance.yahoo.com/news/gavin-newsom-says-trump-making-143113078.html",
             "providerPublishTime": "2026-01-03T14:31:13.000Z",
-            "type": "STORY"
-          },
-          {
-            "uuid": "ce7999df-4193-3622-9c97-67cc7bf336d3",
-            "title": "Nvidia's $65 Billion Forecast Sends a Clear Message About the AI Boom",
-            "publisher": "Motley Fool",
-            "link": "https://finance.yahoo.com/m/ce7999df-4193-3622-9c97-67cc7bf336d3/nvidia%27s-%2465-billion-forecast.html",
-            "providerPublishTime": "2026-01-03T14:21:00.000Z",
             "type": "STORY"
           }
         ],
@@ -16527,12 +16569,18 @@
       "analysis": {
         "symbol": "NVDA",
         "recommendation": "HOLD",
-        "confidence": 0,
+        "confidence": 50,
         "sentimentScore": 50,
-        "summary": "Analysis failed due to an error.",
-        "keyFactors": [],
-        "riskFactors": [],
-        "analyzedAt": "2026-01-03T15:57:04.806Z"
+        "summary": "**AI Analysis Unavailable (Rate Limit/Error)**: Switching to Technical Fallback.\n\nStock is relatively flat (1.26%) today.",
+        "keyFactors": [
+          "Technical Momentum",
+          "Valuation Check"
+        ],
+        "riskFactors": [
+          "Market Volatility",
+          "Data Limited"
+        ],
+        "analyzedAt": "2026-01-03T16:24:20.757Z"
       }
     },
     {
@@ -16547,6 +16595,14 @@
         "peRatio": 31.141304,
         "eps": 10.12,
         "news": [
+          {
+            "uuid": "e1169e67-2524-3ccc-b665-107561426dfe",
+            "title": "Here’s Why Taiwan Semiconductor Manufacturing Holds the Keys to AI’s Explosive Growth",
+            "publisher": "24/7 Wall St.",
+            "link": "https://finance.yahoo.com/m/e1169e67-2524-3ccc-b665-107561426dfe/here%E2%80%99s-why-taiwan.html",
+            "providerPublishTime": "2026-01-03T15:10:24.000Z",
+            "type": "STORY"
+          },
           {
             "uuid": "01766deb-da27-3da0-950e-70b8fcde298c",
             "title": "Roundhill’s AI ETF Rips 45% Higher As The AI Buildout Continues In 2026",
@@ -16577,14 +16633,6 @@
             "publisher": "Motley Fool",
             "link": "https://finance.yahoo.com/m/969cdcb9-f10f-30df-9d99-7a880115d3b1/where-will-amazon-%28amzn%29.html",
             "providerPublishTime": "2026-01-03T13:53:00.000Z",
-            "type": "STORY"
-          },
-          {
-            "uuid": "74f4b9be-cc39-3bd0-8029-9725e1aca8c2",
-            "title": "Google, Other AI Stocks Trade Near Buy Points. One Named 'Top Stock' For 2026",
-            "publisher": "Investor's Business Daily",
-            "link": "https://finance.yahoo.com/m/74f4b9be-cc39-3bd0-8029-9725e1aca8c2/google%2C-other-ai-stocks-trade.html",
-            "providerPublishTime": "2026-01-03T13:00:57.000Z",
             "type": "STORY"
           }
         ],
@@ -18594,12 +18642,18 @@
       "analysis": {
         "symbol": "GOOGL",
         "recommendation": "HOLD",
-        "confidence": 0,
+        "confidence": 50,
         "sentimentScore": 50,
-        "summary": "Analysis failed due to an error.",
-        "keyFactors": [],
-        "riskFactors": [],
-        "analyzedAt": "2026-01-03T15:57:15.829Z"
+        "summary": "**AI Analysis Unavailable (Rate Limit/Error)**: Switching to Technical Fallback.\n\nStock is relatively flat (0.69%) today.",
+        "keyFactors": [
+          "Technical Momentum",
+          "Valuation Check"
+        ],
+        "riskFactors": [
+          "Market Volatility",
+          "Data Limited"
+        ],
+        "analyzedAt": "2026-01-03T16:24:20.757Z"
       }
     },
     {
@@ -20553,13 +20607,19 @@
       },
       "analysis": {
         "symbol": "^KS11",
-        "recommendation": "HOLD",
-        "confidence": 0,
-        "sentimentScore": 50,
-        "summary": "Analysis failed due to an error.",
-        "keyFactors": [],
-        "riskFactors": [],
-        "analyzedAt": "2026-01-03T15:57:27.148Z"
+        "recommendation": "BUY",
+        "confidence": 65,
+        "sentimentScore": 75,
+        "summary": "**AI Analysis Unavailable (Rate Limit/Error)**: Switching to Technical Fallback.\n\nStock shows strong daily momentum up 2.27%.",
+        "keyFactors": [
+          "Technical Momentum",
+          "Valuation Check"
+        ],
+        "riskFactors": [
+          "Market Volatility",
+          "Data Limited"
+        ],
+        "analyzedAt": "2026-01-03T16:24:20.757Z"
       }
     },
     {
@@ -22513,13 +22573,19 @@
       },
       "analysis": {
         "symbol": "^KQ11",
-        "recommendation": "HOLD",
-        "confidence": 0,
-        "sentimentScore": 50,
-        "summary": "Analysis failed due to an error.",
-        "keyFactors": [],
-        "riskFactors": [],
-        "analyzedAt": "2026-01-03T15:57:38.378Z"
+        "recommendation": "BUY",
+        "confidence": 65,
+        "sentimentScore": 75,
+        "summary": "**AI Analysis Unavailable (Rate Limit/Error)**: Switching to Technical Fallback.\n\nStock shows strong daily momentum up 2.17%.",
+        "keyFactors": [
+          "Technical Momentum",
+          "Valuation Check"
+        ],
+        "riskFactors": [
+          "Market Volatility",
+          "Data Limited"
+        ],
+        "analyzedAt": "2026-01-03T16:24:20.757Z"
       }
     },
     {
@@ -22533,43 +22599,43 @@
         "marketCap": 859161701122048,
         "news": [
           {
-            "uuid": "89790beb-64b8-3508-b006-14a45a59bd6d",
-            "title": "Grant Cardone Compares Bitcoin To Printing Press, Telephone, Internet, Says It Advances Money",
+            "uuid": "a7971e54-ba9b-3891-a5f3-bead6cb24dab",
+            "title": "Trump to speak after capture of Venezuela's Maduro. How to watch",
+            "publisher": "USA TODAY",
+            "link": "https://finance.yahoo.com/m/a7971e54-ba9b-3891-a5f3-bead6cb24dab/trump-to-speak-after-capture.html",
+            "providerPublishTime": "2026-01-03T16:06:28.000Z",
+            "type": "STORY"
+          },
+          {
+            "uuid": "057e1174-d3e4-38df-950a-d2543b114458",
+            "title": "Joshua returns to Britain after fatal crash in Nigeria",
+            "publisher": "AFP",
+            "link": "https://finance.yahoo.com/m/057e1174-d3e4-38df-950a-d2543b114458/joshua-returns-to-britain.html",
+            "providerPublishTime": "2026-01-03T16:05:37.000Z",
+            "type": "STORY"
+          },
+          {
+            "uuid": "8634e13b-702f-3bb2-830e-a35b108f9a38",
+            "title": "'Am I Signing Up For A Lifetime Of Resentment?' — Man Earning $85K Learns Girlfriend's Debt Exploded From $60K To $160K",
             "publisher": "Benzinga",
-            "link": "https://finance.yahoo.com/news/grant-cardone-compares-bitcoin-printing-154533087.html",
-            "providerPublishTime": "2026-01-03T15:45:33.000Z",
+            "link": "https://finance.yahoo.com/m/8634e13b-702f-3bb2-830e-a35b108f9a38/%27am-i-signing-up-for-a.html",
+            "providerPublishTime": "2026-01-03T16:01:13.000Z",
             "type": "STORY"
           },
           {
-            "uuid": "8b2b54b4-8442-3c14-96b2-ea7d9b5a578e",
-            "title": "They Made Him HOA President, And He Took The Chance And Dismantled It. 'We Officially Have No HOA!'",
-            "publisher": "Benzinga",
-            "link": "https://finance.yahoo.com/news/made-him-hoa-president-took-154533589.html",
-            "providerPublishTime": "2026-01-03T15:45:33.000Z",
-            "type": "STORY"
-          },
-          {
-            "uuid": "1cdd581a-0dc8-30ce-91ba-0a45397cd6d0",
-            "title": "Fosston, Essentia Health to return to arbitration in Feb. 5 hearing",
-            "publisher": "Grand Forks Herald",
-            "link": "https://finance.yahoo.com/m/1cdd581a-0dc8-30ce-91ba-0a45397cd6d0/fosston%2C-essentia-health-to.html",
-            "providerPublishTime": "2026-01-03T15:39:00.000Z",
-            "type": "STORY"
-          },
-          {
-            "uuid": "5f16a4c5-2813-3fbd-b8a5-9a7d76e453da",
-            "title": "Vaxcyte's Chief Technical Ops Officer Sells Shares",
+            "uuid": "573d8609-9f64-3981-be62-5619cce5e810",
+            "title": "Where Will Coca-Cola Stock Be in 5 Years?",
             "publisher": "Motley Fool",
-            "link": "https://finance.yahoo.com/m/5f16a4c5-2813-3fbd-b8a5-9a7d76e453da/vaxcyte%27s-chief-technical-ops.html",
-            "providerPublishTime": "2026-01-03T15:37:44.000Z",
+            "link": "https://finance.yahoo.com/m/573d8609-9f64-3981-be62-5619cce5e810/where-will-coca-cola-stock-be.html",
+            "providerPublishTime": "2026-01-03T16:00:00.000Z",
             "type": "STORY"
           },
           {
-            "uuid": "d8c96540-f794-37a2-8e38-2edaa5e19429",
-            "title": "AT&T to launch new service for customers as it takes on T-Mobile",
-            "publisher": "TheStreet",
-            "link": "https://finance.yahoo.com/m/d8c96540-f794-37a2-8e38-2edaa5e19429/at%26t-to-launch-new-service.html",
-            "providerPublishTime": "2026-01-03T15:37:00.000Z",
+            "uuid": "a12c4c85-d381-3468-9449-8e6c4e11f76f",
+            "title": "Nicolas Maduro: From bus driver to iron-fisted leader",
+            "publisher": "AFP",
+            "link": "https://finance.yahoo.com/m/a12c4c85-d381-3468-9449-8e6c4e11f76f/nicolas-maduro%3A-from-bus.html",
+            "providerPublishTime": "2026-01-03T15:55:56.000Z",
             "type": "STORY"
           }
         ],
@@ -24506,13 +24572,19 @@
       },
       "analysis": {
         "symbol": "005930.KS",
-        "recommendation": "HOLD",
-        "confidence": 0,
-        "sentimentScore": 50,
-        "summary": "Analysis failed due to an error.",
-        "keyFactors": [],
-        "riskFactors": [],
-        "analyzedAt": "2026-01-03T15:57:49.535Z"
+        "recommendation": "BUY",
+        "confidence": 65,
+        "sentimentScore": 75,
+        "summary": "**AI Analysis Unavailable (Rate Limit/Error)**: Switching to Technical Fallback.\n\nStock shows strong daily momentum up 7.17%.",
+        "keyFactors": [
+          "Technical Momentum",
+          "Valuation Check"
+        ],
+        "riskFactors": [
+          "Market Volatility",
+          "Data Limited"
+        ],
+        "analyzedAt": "2026-01-03T16:24:20.757Z"
       }
     },
     {
@@ -24526,43 +24598,43 @@
         "marketCap": 467438235811840,
         "news": [
           {
-            "uuid": "8adf777a-18dc-359c-a4f9-10e4ced87772",
-            "title": "Venezuela’s Maduro Captured by U.S. and Flown Out of Country, Trump Says",
-            "publisher": "Barrons.com",
-            "link": "https://finance.yahoo.com/m/8adf777a-18dc-359c-a4f9-10e4ced87772/venezuela%E2%80%99s-maduro-captured.html",
-            "providerPublishTime": "2026-01-03T15:53:00.000Z",
+            "uuid": "4fe07edb-1b43-3880-9b69-9eaf88d08a7b",
+            "title": "This Is My No. 1 Recommended Vanguard ETF to Buy in 2026",
+            "publisher": "Motley Fool",
+            "link": "https://finance.yahoo.com/m/4fe07edb-1b43-3880-9b69-9eaf88d08a7b/this-is-my-no.-1-recommended.html",
+            "providerPublishTime": "2026-01-03T16:20:00.000Z",
             "type": "STORY"
           },
           {
-            "uuid": "89790beb-64b8-3508-b006-14a45a59bd6d",
-            "title": "Grant Cardone Compares Bitcoin To Printing Press, Telephone, Internet, Says It Advances Money",
+            "uuid": "f992374b-ee7c-3257-bc46-6e0d073748af",
+            "title": "Why did the US attack Venezuela and capture Nicolás Maduro?",
+            "publisher": "USA TODAY",
+            "link": "https://finance.yahoo.com/m/f992374b-ee7c-3257-bc46-6e0d073748af/why-did-the-us-attack.html",
+            "providerPublishTime": "2026-01-03T16:18:35.000Z",
+            "type": "STORY"
+          },
+          {
+            "uuid": "a7971e54-ba9b-3891-a5f3-bead6cb24dab",
+            "title": "Trump to speak after capture of Venezuela's Maduro. How to watch",
+            "publisher": "USA TODAY",
+            "link": "https://finance.yahoo.com/m/a7971e54-ba9b-3891-a5f3-bead6cb24dab/trump-to-speak-after-capture.html",
+            "providerPublishTime": "2026-01-03T16:06:28.000Z",
+            "type": "STORY"
+          },
+          {
+            "uuid": "057e1174-d3e4-38df-950a-d2543b114458",
+            "title": "Joshua returns to Britain after fatal crash in Nigeria",
+            "publisher": "AFP",
+            "link": "https://finance.yahoo.com/m/057e1174-d3e4-38df-950a-d2543b114458/joshua-returns-to-britain.html",
+            "providerPublishTime": "2026-01-03T16:05:37.000Z",
+            "type": "STORY"
+          },
+          {
+            "uuid": "8634e13b-702f-3bb2-830e-a35b108f9a38",
+            "title": "'Am I Signing Up For A Lifetime Of Resentment?' — Man Earning $85K Learns Girlfriend's Debt Exploded From $60K To $160K",
             "publisher": "Benzinga",
-            "link": "https://finance.yahoo.com/news/grant-cardone-compares-bitcoin-printing-154533087.html",
-            "providerPublishTime": "2026-01-03T15:45:33.000Z",
-            "type": "STORY"
-          },
-          {
-            "uuid": "8b2b54b4-8442-3c14-96b2-ea7d9b5a578e",
-            "title": "They Made Him HOA President, And He Took The Chance And Dismantled It. 'We Officially Have No HOA!'",
-            "publisher": "Benzinga",
-            "link": "https://finance.yahoo.com/news/made-him-hoa-president-took-154533589.html",
-            "providerPublishTime": "2026-01-03T15:45:33.000Z",
-            "type": "STORY"
-          },
-          {
-            "uuid": "6cfe5ffa-030b-3773-b72c-72d1f05a1a36",
-            "title": "Calvin Klein's $68 fluffy robe is on sale for just $30 at Nordstrom Rack",
-            "publisher": "TheStreet",
-            "link": "https://finance.yahoo.com/m/6cfe5ffa-030b-3773-b72c-72d1f05a1a36/calvin-klein%27s-%2468-fluffy.html",
-            "providerPublishTime": "2026-01-03T15:45:00.000Z",
-            "type": "STORY"
-          },
-          {
-            "uuid": "1cdd581a-0dc8-30ce-91ba-0a45397cd6d0",
-            "title": "Fosston, Essentia Health to return to arbitration in Feb. 5 hearing",
-            "publisher": "Grand Forks Herald",
-            "link": "https://finance.yahoo.com/m/1cdd581a-0dc8-30ce-91ba-0a45397cd6d0/fosston%2C-essentia-health-to.html",
-            "providerPublishTime": "2026-01-03T15:39:00.000Z",
+            "link": "https://finance.yahoo.com/m/8634e13b-702f-3bb2-830e-a35b108f9a38/%27am-i-signing-up-for-a.html",
+            "providerPublishTime": "2026-01-03T16:01:13.000Z",
             "type": "STORY"
           }
         ],
@@ -26499,13 +26571,19 @@
       },
       "analysis": {
         "symbol": "000660.KS",
-        "recommendation": "HOLD",
-        "confidence": 0,
-        "sentimentScore": 50,
-        "summary": "Analysis failed due to an error.",
-        "keyFactors": [],
-        "riskFactors": [],
-        "analyzedAt": "2026-01-03T15:58:00.842Z"
+        "recommendation": "BUY",
+        "confidence": 65,
+        "sentimentScore": 75,
+        "summary": "**AI Analysis Unavailable (Rate Limit/Error)**: Switching to Technical Fallback.\n\nStock shows strong daily momentum up 3.99%.",
+        "keyFactors": [
+          "Technical Momentum",
+          "Valuation Check"
+        ],
+        "riskFactors": [
+          "Market Volatility",
+          "Data Limited"
+        ],
+        "analyzedAt": "2026-01-03T16:24:20.757Z"
       }
     },
     {
@@ -26519,43 +26597,43 @@
         "marketCap": 36922747518976,
         "news": [
           {
-            "uuid": "8adf777a-18dc-359c-a4f9-10e4ced87772",
-            "title": "Venezuela’s Maduro Captured by U.S. and Flown Out of Country, Trump Says",
-            "publisher": "Barrons.com",
-            "link": "https://finance.yahoo.com/m/8adf777a-18dc-359c-a4f9-10e4ced87772/venezuela%E2%80%99s-maduro-captured.html",
-            "providerPublishTime": "2026-01-03T15:53:00.000Z",
+            "uuid": "4fe07edb-1b43-3880-9b69-9eaf88d08a7b",
+            "title": "This Is My No. 1 Recommended Vanguard ETF to Buy in 2026",
+            "publisher": "Motley Fool",
+            "link": "https://finance.yahoo.com/m/4fe07edb-1b43-3880-9b69-9eaf88d08a7b/this-is-my-no.-1-recommended.html",
+            "providerPublishTime": "2026-01-03T16:20:00.000Z",
             "type": "STORY"
           },
           {
-            "uuid": "89790beb-64b8-3508-b006-14a45a59bd6d",
-            "title": "Grant Cardone Compares Bitcoin To Printing Press, Telephone, Internet, Says It Advances Money",
+            "uuid": "f992374b-ee7c-3257-bc46-6e0d073748af",
+            "title": "Why did the US attack Venezuela and capture Nicolás Maduro?",
+            "publisher": "USA TODAY",
+            "link": "https://finance.yahoo.com/m/f992374b-ee7c-3257-bc46-6e0d073748af/why-did-the-us-attack.html",
+            "providerPublishTime": "2026-01-03T16:18:35.000Z",
+            "type": "STORY"
+          },
+          {
+            "uuid": "a7971e54-ba9b-3891-a5f3-bead6cb24dab",
+            "title": "Trump to speak after capture of Venezuela's Maduro. How to watch",
+            "publisher": "USA TODAY",
+            "link": "https://finance.yahoo.com/m/a7971e54-ba9b-3891-a5f3-bead6cb24dab/trump-to-speak-after-capture.html",
+            "providerPublishTime": "2026-01-03T16:06:28.000Z",
+            "type": "STORY"
+          },
+          {
+            "uuid": "057e1174-d3e4-38df-950a-d2543b114458",
+            "title": "Joshua returns to Britain after fatal crash in Nigeria",
+            "publisher": "AFP",
+            "link": "https://finance.yahoo.com/m/057e1174-d3e4-38df-950a-d2543b114458/joshua-returns-to-britain.html",
+            "providerPublishTime": "2026-01-03T16:05:37.000Z",
+            "type": "STORY"
+          },
+          {
+            "uuid": "8634e13b-702f-3bb2-830e-a35b108f9a38",
+            "title": "'Am I Signing Up For A Lifetime Of Resentment?' — Man Earning $85K Learns Girlfriend's Debt Exploded From $60K To $160K",
             "publisher": "Benzinga",
-            "link": "https://finance.yahoo.com/news/grant-cardone-compares-bitcoin-printing-154533087.html",
-            "providerPublishTime": "2026-01-03T15:45:33.000Z",
-            "type": "STORY"
-          },
-          {
-            "uuid": "8b2b54b4-8442-3c14-96b2-ea7d9b5a578e",
-            "title": "They Made Him HOA President, And He Took The Chance And Dismantled It. 'We Officially Have No HOA!'",
-            "publisher": "Benzinga",
-            "link": "https://finance.yahoo.com/news/made-him-hoa-president-took-154533589.html",
-            "providerPublishTime": "2026-01-03T15:45:33.000Z",
-            "type": "STORY"
-          },
-          {
-            "uuid": "6cfe5ffa-030b-3773-b72c-72d1f05a1a36",
-            "title": "Calvin Klein's $68 fluffy robe is on sale for just $30 at Nordstrom Rack",
-            "publisher": "TheStreet",
-            "link": "https://finance.yahoo.com/m/6cfe5ffa-030b-3773-b72c-72d1f05a1a36/calvin-klein%27s-%2468-fluffy.html",
-            "providerPublishTime": "2026-01-03T15:45:00.000Z",
-            "type": "STORY"
-          },
-          {
-            "uuid": "1cdd581a-0dc8-30ce-91ba-0a45397cd6d0",
-            "title": "Fosston, Essentia Health to return to arbitration in Feb. 5 hearing",
-            "publisher": "Grand Forks Herald",
-            "link": "https://finance.yahoo.com/m/1cdd581a-0dc8-30ce-91ba-0a45397cd6d0/fosston%2C-essentia-health-to.html",
-            "providerPublishTime": "2026-01-03T15:39:00.000Z",
+            "link": "https://finance.yahoo.com/m/8634e13b-702f-3bb2-830e-a35b108f9a38/%27am-i-signing-up-for-a.html",
+            "providerPublishTime": "2026-01-03T16:01:13.000Z",
             "type": "STORY"
           }
         ],
@@ -28492,13 +28570,19 @@
       },
       "analysis": {
         "symbol": "035420.KS",
-        "recommendation": "HOLD",
-        "confidence": 0,
-        "sentimentScore": 50,
-        "summary": "Analysis failed due to an error.",
-        "keyFactors": [],
-        "riskFactors": [],
-        "analyzedAt": "2026-01-03T15:58:11.868Z"
+        "recommendation": "BUY",
+        "confidence": 65,
+        "sentimentScore": 75,
+        "summary": "**AI Analysis Unavailable (Rate Limit/Error)**: Switching to Technical Fallback.\n\nStock shows strong daily momentum up 1.86%.",
+        "keyFactors": [
+          "Technical Momentum",
+          "Valuation Check"
+        ],
+        "riskFactors": [
+          "Market Volatility",
+          "Data Limited"
+        ],
+        "analyzedAt": "2026-01-03T16:24:20.757Z"
       }
     }
   ]
