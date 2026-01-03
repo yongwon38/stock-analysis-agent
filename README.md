@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Stock Analysis Agent (Predictive Income Generator)
 
-## Getting Started
+**Live Demo:** [https://predictive-income-generator.vercel.app/](https://predictive-income-generator.vercel.app/)
 
-First, run the development server:
+## Project Overview
+This project is an **AI-powered Stock Analysis Agent** designed to automate the collection and analysis of stock market data. It serves as a personal investment assistant, providing daily insights into your favorite US and Korean stocks without manual research.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🤖 AI-Driven Analysis
+-   **Investment Recommendations**: Uses Google's **Gemini 2.0 Flash** model to analyze market data and generate "BUY", "SELL", or "HOLD" signals.
+-   **Sentiment Analysis**: Scans recent news headlines to calculate a sentiment score (0-100), giving you a quick sense of market mood.
+-   **Detailed Summaries**: Provides a markdown-formatted summary of the analysis, highlighting key factors and potential risks.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 📊 Real-Time & Historical Data
+-   **Market Data**: Integrates with standard finance APIs to fetch real-time prices, PE ratios, and EPS.
+-   **Interactive Charts**: Visualizes 1-year price history with interactive tooltips for identifying trends.
+-   **Multi-Market Support**: Seamlessly handles both US stocks (e.g., AAPL, TSLA) and Korean stocks (e.g., Samsung Electronics, NAVER).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### ⚡ Automated Workflows
+-   **Daily Batch Processing**: Automatically runs a batch analysis job every day at 8:00 AM and 5:00 PM KST to ensure data is fresh before market open/close.
+-   **Production Ready**: Deployed on Vercel with a robust Next.js frontend and server-side automation.
 
-## Learn More
+## Technology Stack
+-   **Frontend**: Next.js (App Router), TailwindCSS for premium "Dark Mode" aesthetics.
+-   **AI Core**: Google Gemini API (`gemini-2.0-flash`).
+-   **Data Engine**: `yahoo-finance2` for market data fetching.
+-   **Visualization**: `recharts` for dynamic stock charts.
+-   **Scheduler**: `node-cron` for automated background tasks.
 
-To learn more about Next.js, take a look at the following resources:
+## Why This Project?
+Investing requires constant vigilance. This agent removes the repetitive work of checking multiple sources by aggregating price, news, and AI insights into a single, clean dashboard. It allows users to make informed decisions faster by presenting complex data in a simple, digestible format.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*This project is for educational and informational purposes only. Always do your own research before investing.*
