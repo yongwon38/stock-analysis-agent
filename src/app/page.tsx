@@ -32,10 +32,36 @@ export default async function Home() {
             <p>No analysis data found. Click Refresh to start.</p>
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {data.results.map((item) => (
-              <StockCard key={item.stock.symbol} data={item} />
-            ))}
+          <div className="space-y-12">
+            {/* Section 1: Market Indices */}
+            <section>
+              <h2 className="text-2xl font-bold mb-4 text-purple-400 border-b border-purple-500/20 pb-2">Market Indices</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                {data.results.filter(r => ['^VIX', 'VUG', 'VTV', 'HYG'].includes(r.stock.symbol)).map((item) => (
+                  <StockCard key={item.stock.symbol} data={item} />
+                ))}
+              </div>
+            </section>
+
+            {/* Section 2: US Market */}
+            <section>
+              <h2 className="text-2xl font-bold mb-4 text-blue-400 border-b border-blue-500/20 pb-2">US Market Leaders</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {data.results.filter(r => ['SPY', 'QQQ', 'MAGA', 'NVDA', 'GOOGL'].includes(r.stock.symbol)).map((item) => (
+                  <StockCard key={item.stock.symbol} data={item} />
+                ))}
+              </div>
+            </section>
+
+            {/* Section 3: Korean Market */}
+            <section>
+              <h2 className="text-2xl font-bold mb-4 text-emerald-400 border-b border-emerald-500/20 pb-2">Korean Market</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {data.results.filter(r => ['^KS11', '^KQ11', '005930.KS', '000660.KS', '035420.KS'].includes(r.stock.symbol)).map((item) => (
+                  <StockCard key={item.stock.symbol} data={item} />
+                ))}
+              </div>
+            </section>
           </div>
         )}
       </div>

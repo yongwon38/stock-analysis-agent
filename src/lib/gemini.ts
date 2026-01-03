@@ -17,6 +17,7 @@ export interface AnalysisResult {
     summary: string; // Markdown summary of the reasoning
     keyFactors: string[]; // List of bullet points
     riskFactors: string[];
+    analyzedAt: string; // ISO String of when analysis happened
 }
 
 export async function analyzeStock(data: StockData): Promise<AnalysisResult> {
@@ -61,7 +62,8 @@ export async function analyzeStock(data: StockData): Promise<AnalysisResult> {
 
         return {
             symbol: data.symbol,
-            ...analysis
+            ...analysis,
+            analyzedAt: new Date().toISOString()
         };
     } catch (error) {
         console.error("Gemini analysis failed:", error);
@@ -72,7 +74,8 @@ export async function analyzeStock(data: StockData): Promise<AnalysisResult> {
             sentimentScore: 50,
             summary: "Analysis failed due to an error.",
             keyFactors: [],
-            riskFactors: []
+            riskFactors: [],
+            analyzedAt: new Date().toISOString()
         };
     }
 }

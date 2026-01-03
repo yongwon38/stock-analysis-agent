@@ -75,6 +75,9 @@ export default async function StockPage({ params }: PageProps) {
                             <div className="prose prose-invert max-w-none text-slate-300 font-light leading-relaxed whitespace-pre-line">
                                 {analysis.summary}
                             </div>
+                            <div className="mt-4 pt-4 border-t border-slate-800 text-right text-xs text-slate-500 font-mono">
+                                Analysis Generated: {analysis.analyzedAt ? new Date(analysis.analyzedAt).toLocaleString() : 'Just now'}
+                            </div>
                         </section>
                     </div>
 
