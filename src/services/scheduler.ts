@@ -2,9 +2,9 @@ import cron from 'node-cron';
 import { runBatchAnalysis } from './batch';
 
 export function initScheduler() {
-    // Run at 8:00 AM and 5:00 PM (Korea/Japan Time approx, assuming server is in KST or UTC adjusted)
-    // 0 8,17 * * *
-    const schedule = '0 8,17 * * *';
+    // Run at 5:00 PM (Korea Time)
+    // 0 17 * * *
+    const schedule = '0 17 * * *';
 
     console.log(`Initializing Scheduler... [${schedule}]`);
 
