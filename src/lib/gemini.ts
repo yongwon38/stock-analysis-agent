@@ -20,62 +20,106 @@ export interface AnalysisResult {
     analyzedAt: string; // ISO String of when analysis happened
 }
 
-export async function analyzeStock(data: StockData): Promise<AnalysisResult> {
-    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+// Fallback logic for when AI fails
+function getRuleBasedAnalysis(stock: StockData): AnalysisResult {
+    let rec: 'BUY' | 'SELL' | 'HOLD' = 'HOLD';
+    let conf = 50;
+    let sentiment = 50;
+    let summaryParts = ["**AI Analysis Unavailable (Rate Limit/Error)**: Switching to Technical Fallback."];
+
+    // Simple Rule: 1-Year Trend
+    // We don't have explicit 1-year change % in StockData property, so we calculate from price vs closing price of history[0]
+    // But data.changePercent is daily. 
+    // Let's assume the batch caller might have calculated it, or we rely on daily change for now.
+    // Actually, let's use daily change for immediate sentiment.
+
+    if (stock.changePercent > 1.5) {
+        rec = 'BUY';
+        conf = 65;
+        sentiment = 75;
+        summaryParts.push(`Stock shows strong daily momentum up ${stock.changePercent.toFixed(2)}%.`);
+    } else if (stock.changePercent < -1.5) {
+        rec = 'SELL';
+        conf = 65;
+        sentiment = 25;
+        summaryParts.push(`Stock shows significant daily decline of ${stock.changePercent.toFixed(2)}%.`);
+    } else {
+        summaryParts.push(`Stock is relatively flat (${stock.changePercent.toFixed(2)}%) today.`);
+    }
+
+    // PE Ratio check
+    if (stock.peRatio) {
+        if (stock.peRatio > 50) {
+            summaryParts.push("P/E Ratio is high, suggesting premium valuation.");
+            if (rec === 'BUY') conf -= 10;
+        } else if (stock.peRatio < 15 && stock.peRatio > 0) {
+            summaryParts.push("P/E Ratio appears attractive.");
+            if (rec === 'SELL') rec = 'HOLD';
+        }
+    }
+
+    return {
+        symbol: stock.symbol,
+        recommendation: rec,
+        confidence: conf,
+        sentimentScore: sentiment,
+        summary: summaryParts.join("\n\n"),
+        keyFactors: ["Technical Momentum", "Valuation Check"],
+        riskFactors: ["Market Volatility", "Data Limited"],
+        analyzedAt: new Date().toISOString()
+    };
+}
+
+export async function analyzeStockBatch(stocks: StockData[]): Promise<AnalysisResult[]> {
+    // Try to use 1.5-flash-001 or 2.0-flash if quota permits
+    // 2.0-flash gave 429 quota 0. 1.5-flash-001 is standard free tier.
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-001" });
+
+    // Optimize payload: Only send necessary fields to save tokens
+    const simplifiedData = stocks.map(s => ({
+        symbol: s.symbol,
+        name: s.name,
+        price: s.price,
+        currency: s.currency,
+        changePercent: s.changePercent,
+        pe: s.peRatio,
+        headlines: s.news.slice(0, 3).map(n => n.title) // Only top 3 headlines
+    }));
 
     const prompt = `
-    You are a professional financial analyst. Analyze the following stock data for ${data.symbol} (${data.name}).
+    You are a financial analyst. Analyze these stocks.
+    Input: ${JSON.stringify(simplifiedData)}
     
-    Context:
-    - Current Price: ${data.price} ${data.currency}
-    - PE Ratio: ${data.peRatio}
-    - EPS: ${data.eps}
-    - 1 Year Change: (Calculate from history if needed, or rely on general trend)
+    Task: Return a JSON ARRAY of objects (one for each input stock) with:
+    { "symbol": "...", "recommendation": "BUY/SELL/HOLD", "confidence": 0-100, "sentimentScore": 0-100, "summary": "markdown", "keyFactors": [], "riskFactors": [] }
     
-    Recent News Headlines:
-    ${data.news.map(n => `- ${n.title} (${new Date(n.providerPublishTime * 1000).toISOString()})`).join('\n')}
-    
-    Task:
-    - Provide a investment recommendation (BUY, SELL, or HOLD) with a confidence score (0-100).
-    - Also perform a sentiment analysis on the news headlines and provide a sentiment score (0-100, where 0 is very negative, 50 neutral, 100 very positive).
-    - Summarize your reasoning in markdown, highlighting key positive/negative factors.
-    
-    Output Format (JSON strictly):
-    {
-      "recommendation": "BUY" | "SELL" | "HOLD",
-      "confidence": number,
-      "sentimentScore": number,
-      "summary": "markdown string",
-      "keyFactors": ["factor 1", "factor 2"],
-      "riskFactors": ["risk 1", "risk 2"]
-    }
-  `;
+    Keep summaries concise.
+    `;
 
     try {
+        console.log(`Sending batch analysis for ${stocks.length} stocks...`);
         const result = await model.generateContent(prompt);
-        const response = await result.response;
-        const text = response.text();
+        const text = (await result.response).text();
 
-        // Clean up potential markdown code blocks if Gemini wraps the JSON
         const jsonStr = text.replace(/```json/g, '').replace(/```/g, '').trim();
-        const analysis = JSON.parse(jsonStr);
+        const resultsArray = JSON.parse(jsonStr);
 
-        return {
-            symbol: data.symbol,
-            ...analysis,
-            analyzedAt: new Date().toISOString()
-        };
+        // Map results back to ensure order and missing items handling
+        return stocks.map(stock => {
+            const analysis = resultsArray.find((r: any) => r.symbol === stock.symbol);
+            if (analysis) {
+                return {
+                    symbol: stock.symbol,
+                    ...analysis,
+                    analyzedAt: new Date().toISOString()
+                };
+            }
+            return getRuleBasedAnalysis(stock);
+        });
+
     } catch (error) {
-        console.error("Gemini analysis failed:", error);
-        return {
-            symbol: data.symbol,
-            recommendation: 'HOLD',
-            confidence: 0,
-            sentimentScore: 50,
-            summary: "Analysis failed due to an error.",
-            keyFactors: [],
-            riskFactors: [],
-            analyzedAt: new Date().toISOString()
-        };
+        console.error("Gemini Batch Analysis Failed:", error);
+        // Fallback for ENTIRE batch
+        return stocks.map(stock => getRuleBasedAnalysis(stock));
     }
 }
