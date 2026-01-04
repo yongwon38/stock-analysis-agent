@@ -32,7 +32,7 @@ export default async function DebugPage() {
             },
             body: JSON.stringify({
                 messages: [{ role: "user", content: "Test" }],
-                model: "llama-3.3-70b-versatile",
+                model: "openai/gpt-oss-120b",
                 max_tokens: 1
             })
         });

@@ -3,7 +3,6 @@ import { StockData } from './finance';
 import { getAnalysisResults, saveAnalysisResults } from './storage';
 
 // Configuration
-// NO HARDCODING: Keys must be provided via safe Vercel Environment Variables
 const GROQ_API_KEY = process.env.GROQ_API_KEY;
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
@@ -45,18 +44,18 @@ export async function getStockAnalysis(stock: StockData): Promise<AnalysisResult
     console.log(`[Cache Miss] Analyzing ${stock.symbol} via AI...`);
     let result: AnalysisResult;
 
-    // 2. Try Primary Provider (Gemini)
+    // 2. Try Primary Provider (Groq - GPT OSS 120B)
     try {
-        result = await analyzeWithGemini(stock);
-    } catch (geminiError: any) {
-        console.warn(`[Gemini Failed] ${geminiError.message}. Switching to Groq...`);
+        result = await analyzeWithGroq(stock);
+    } catch (groqError: any) {
+        console.warn(`[Groq Failed] ${groqError.message}. Switching to Gemini...`);
 
-        // 3. Try Secondary Provider (Groq)
+        // 3. Try Secondary Provider (Gemini)
         try {
-            result = await analyzeWithGroq(stock);
-        } catch (groqError: any) {
-            console.error(`[Groq Failed] ${groqError.message}`);
-            throw new Error(`AI Analysis Failed: Both Gemini and Groq unavailable. (${geminiError.message} / ${groqError.message})`);
+            result = await analyzeWithGemini(stock);
+        } catch (geminiError: any) {
+            console.error(`[Gemini Failed] ${geminiError.message}`);
+            throw new Error(`AI Analysis Failed: Both Groq and Gemini unavailable. (${groqError.message} / ${geminiError.message})`);
         }
     }
 
@@ -128,7 +127,7 @@ async function updateCache(stock: StockData, analysis: AnalysisResult) {
 // --- Providers ---
 
 async function analyzeWithGemini(data: StockData): Promise<AnalysisResult> {
-    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-lite" });
     const prompt = generatePrompt(data);
 
     // Simple verification of quota error handling
@@ -155,7 +154,7 @@ async function analyzeWithGroq(data: StockData): Promise<AnalysisResult> {
         },
         body: JSON.stringify({
             messages: [{ role: "user", content: prompt }],
-            model: "llama-3.3-70b-versatile", // UPDATED: Valid Model ID
+            model: "openai/gpt-oss-120b",
             temperature: 0.1
         })
     });
