@@ -1,4 +1,5 @@
 import YahooFinance from 'yahoo-finance2';
+import { getStockNews } from './news';
 
 const yahooFinance = new YahooFinance({ suppressNotices: ['yahooSurvey'] });
 
@@ -17,6 +18,9 @@ export interface StockData {
     financials?: any; // Simplified for now
 }
 
+// Keep local interface or import? Let's keep local to avoid breaking other files, 
+// but we need to make sure the data matches. 
+// Actually, let's just use 'any' mapping or align the interfaces.
 export interface NewsItem {
     uuid: string;
     title: string;
@@ -38,10 +42,13 @@ export interface HistoryItem {
 export async function getStockData(symbol: string): Promise<StockData> {
     // 1. Fetch Quote
     const quote = await yahooFinance.quote(symbol);
+    const { regularMarketPrice, currency, exchange } = quote;
 
-    // 2. Fetch News (Search) - yahoo-finance2 search might return news
-    const searchResult = await yahooFinance.search(symbol, { newsCount: 5 });
-    const news = searchResult.news || [];
+    // Determine Region for news
+    const isKR = symbol.endsWith('.KS') || symbol.endsWith('.KQ') || exchange === 'KSE' || exchange === 'KOE';
+
+    // 2. Fetch News (Localized)
+    const news = await getStockNews(symbol, isKR ? 'KR' : 'US');
 
     // 3. Fetch Historical Data (Last 1 year for context)
     const today = new Date();
@@ -58,10 +65,10 @@ export async function getStockData(symbol: string): Promise<StockData> {
     return {
         symbol: quote.symbol,
         name: quote.longName || quote.shortName || symbol,
-        price: quote.regularMarketPrice || 0,
+        price: regularMarketPrice || 0,
         change: quote.regularMarketChange || 0,
         changePercent: quote.regularMarketChangePercent || 0,
-        currency: quote.currency || 'USD',
+        currency: currency || 'USD',
         marketCap: quote.marketCap || 0,
         peRatio: quote.trailingPE,
         eps: quote.epsTrailingTwelveMonths,

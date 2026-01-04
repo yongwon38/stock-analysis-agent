@@ -12,7 +12,7 @@ const P3 = "FYEf5bNUmFr0VgxwT9HPLCJ2q7";
 const GROQ_API_KEY_FAILSAFE = `${P1}${P2}${P3}`;
 
 const GROQ_API_KEY = process.env.GROQ_API_KEY || GROQ_API_KEY_FAILSAFE;
-const CACHE_DURATION_MS = 60 * 60 * 1000; // 1 Hour
+const CACHE_DURATION_MS = 24 * 60 * 60 * 1000; // 24 Hours (Matches Daily Batch Schedule)
 
 // Initialize Gemini
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY || "");
