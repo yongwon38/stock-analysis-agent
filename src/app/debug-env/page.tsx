@@ -1,11 +1,12 @@
 
 import { GoogleGenerativeAI } from '@google/generative-ai';
+import { getEffectiveGeminiKey, getEffectiveGroqKey, USING_GEMINI_FALLBACK, USING_GROQ_FALLBACK } from '@/lib/ai';
 
 export const dynamic = 'force-dynamic';
 
 export default async function DebugPage() {
-    const geminiKey = process.env.GEMINI_API_KEY;
-    const groqKey = process.env.GROQ_API_KEY;
+    const geminiKey = getEffectiveGeminiKey();
+    const groqKey = getEffectiveGroqKey();
 
     let geminiStatus = "Checking...";
     let groqStatus = "Checking...";
@@ -14,7 +15,7 @@ export default async function DebugPage() {
     try {
         if (!geminiKey) throw new Error("Key Missing");
         const genAI = new GoogleGenerativeAI(geminiKey);
-        const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-lite" });
+        const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
         await model.generateContent("Test");
         geminiStatus = "OK (Connected)";
     } catch (e: any) {
@@ -32,7 +33,7 @@ export default async function DebugPage() {
             },
             body: JSON.stringify({
                 messages: [{ role: "user", content: "Test" }],
-                model: "llama-3.3-70b-versatile",
+                model: "llama3-70b-8192",
                 max_tokens: 1
             })
         });
@@ -54,10 +55,10 @@ export default async function DebugPage() {
                     <h2 className="text-xl mb-4 text-white">Environment Variables</h2>
                     <ul className="space-y-2">
                         <li>
-                            GEMINI_API_KEY: <span className={geminiKey ? "text-green-500" : "text-red-500"}>{geminiKey ? `Present (${geminiKey.substring(0, 4)}...)` : "MISSING"}</span>
+                            GEMINI_API_KEY: <span className={!USING_GEMINI_FALLBACK ? "text-green-500" : "text-yellow-500"}>{!USING_GEMINI_FALLBACK ? "Configured in Vercel" : "Using Hardcoded Fallback"}</span>
                         </li>
                         <li>
-                            GROQ_API_KEY: <span className={groqKey ? "text-green-500" : "text-yellow-500"}>{groqKey ? `Present (${groqKey.substring(0, 4)}...)` : "Using Hardcoded Fallback"}</span>
+                            GROQ_API_KEY: <span className={!USING_GROQ_FALLBACK ? "text-green-500" : "text-yellow-500"}>{!USING_GROQ_FALLBACK ? "Configured in Vercel" : "Using Hardcoded Fallback"}</span>
                         </li>
                     </ul>
                 </div>
