@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-03T16:24:20.757Z",
+  "lastUpdated": "2026-01-03T16:42:31.099Z",
   "results": [
     {
       "stock": {
@@ -2069,7 +2069,7 @@
           "Market Volatility",
           "Data Limited"
         ],
-        "analyzedAt": "2026-01-03T16:24:20.757Z"
+        "analyzedAt": "2026-01-03T16:42:31.098Z"
       }
     },
     {
@@ -4142,7 +4142,7 @@
           "Market Volatility",
           "Data Limited"
         ],
-        "analyzedAt": "2026-01-03T16:24:20.757Z"
+        "analyzedAt": "2026-01-03T16:42:31.098Z"
       }
     },
     {
@@ -6215,7 +6215,7 @@
           "Market Volatility",
           "Data Limited"
         ],
-        "analyzedAt": "2026-01-03T16:24:20.757Z"
+        "analyzedAt": "2026-01-03T16:42:31.098Z"
       }
     },
     {
@@ -8288,7 +8288,7 @@
           "Market Volatility",
           "Data Limited"
         ],
-        "analyzedAt": "2026-01-03T16:24:20.757Z"
+        "analyzedAt": "2026-01-03T16:42:31.098Z"
       }
     },
     {
@@ -8303,6 +8303,14 @@
         "peRatio": 27.554523,
         "eps": 24.793388,
         "news": [
+          {
+            "uuid": "811448ec-4230-3309-b13a-1e38a49a1977",
+            "title": "Why Did the U.S. Capture Maduro?",
+            "publisher": "The Wall Street Journal",
+            "link": "https://finance.yahoo.com/m/811448ec-4230-3309-b13a-1e38a49a1977/why-did-the-u.s.-capture.html",
+            "providerPublishTime": "2026-01-03T15:01:00.000Z",
+            "type": "STORY"
+          },
           {
             "uuid": "84cfdb11-bd7b-3d3f-925c-41c6fd6ed6c8",
             "title": "Venezuela’s Maduro Seemed Untouchable. Now He Will Stand Trial in New York",
@@ -8333,14 +8341,6 @@
             "publisher": "Barchart",
             "link": "https://finance.yahoo.com/m/bca75bc9-7ac6-3a1d-b715-fc93b6b29014/stocks-give-up-early-gains-as.html",
             "providerPublishTime": "2026-01-02T16:29:44.000Z",
-            "type": "STORY"
-          },
-          {
-            "uuid": "ab0f788a-54f7-3a05-aae6-aea539c2b888",
-            "title": "This Billionaire Investment Legend is Betting on the QQQ. Is it a Better Bet Than the SPY?",
-            "publisher": "24/7 Wall St.",
-            "link": "https://finance.yahoo.com/m/ab0f788a-54f7-3a05-aae6-aea539c2b888/this-billionaire-investment.html",
-            "providerPublishTime": "2026-01-02T15:18:47.000Z",
             "type": "STORY"
           }
         ],
@@ -10361,7 +10361,7 @@
           "Market Volatility",
           "Data Limited"
         ],
-        "analyzedAt": "2026-01-03T16:24:20.757Z"
+        "analyzedAt": "2026-01-03T16:42:31.098Z"
       }
     },
     {
@@ -12434,7 +12434,7 @@
           "Market Volatility",
           "Data Limited"
         ],
-        "analyzedAt": "2026-01-03T16:24:20.757Z"
+        "analyzedAt": "2026-01-03T16:42:31.098Z"
       }
     },
     {
@@ -14507,7 +14507,7 @@
           "Market Volatility",
           "Data Limited"
         ],
-        "analyzedAt": "2026-01-03T16:24:20.757Z"
+        "analyzedAt": "2026-01-03T16:42:31.098Z"
       }
     },
     {
@@ -14547,19 +14547,19 @@
             "type": "STORY"
           },
           {
+            "uuid": "d3aa3714-1ae7-36bd-90d6-a7ef43eaf2f8",
+            "title": "Dow Jones Futures: Trump Says U.S. Seizes Venezuela's Maduro; Nvidia, AMD, Taiwan Semi Due",
+            "publisher": "Investor's Business Daily",
+            "link": "https://finance.yahoo.com/m/d3aa3714-1ae7-36bd-90d6-a7ef43eaf2f8/dow-jones-futures%3A-trump-says.html",
+            "providerPublishTime": "2026-01-03T16:29:38.000Z",
+            "type": "STORY"
+          },
+          {
             "uuid": "e1169e67-2524-3ccc-b665-107561426dfe",
             "title": "Here’s Why Taiwan Semiconductor Manufacturing Holds the Keys to AI’s Explosive Growth",
             "publisher": "24/7 Wall St.",
             "link": "https://finance.yahoo.com/m/e1169e67-2524-3ccc-b665-107561426dfe/here%E2%80%99s-why-taiwan.html",
             "providerPublishTime": "2026-01-03T15:10:24.000Z",
-            "type": "STORY"
-          },
-          {
-            "uuid": "2f89560d-6e0d-3b99-9f73-bc812be418f3",
-            "title": "Gavin Newsom Says Trump Making Gaming More Expensive Amid Chip Price Surge",
-            "publisher": "Benzinga",
-            "link": "https://finance.yahoo.com/news/gavin-newsom-says-trump-making-143113078.html",
-            "providerPublishTime": "2026-01-03T14:31:13.000Z",
             "type": "STORY"
           }
         ],
@@ -16580,7 +16580,7 @@
           "Market Volatility",
           "Data Limited"
         ],
-        "analyzedAt": "2026-01-03T16:24:20.757Z"
+        "analyzedAt": "2026-01-03T16:42:31.098Z"
       }
     },
     {
@@ -16596,6 +16596,14 @@
         "eps": 10.12,
         "news": [
           {
+            "uuid": "d3aa3714-1ae7-36bd-90d6-a7ef43eaf2f8",
+            "title": "Dow Jones Futures: Trump Says U.S. Seizes Venezuela's Maduro; Nvidia, AMD, Taiwan Semi Due",
+            "publisher": "Investor's Business Daily",
+            "link": "https://finance.yahoo.com/m/d3aa3714-1ae7-36bd-90d6-a7ef43eaf2f8/dow-jones-futures%3A-trump-says.html",
+            "providerPublishTime": "2026-01-03T16:29:38.000Z",
+            "type": "STORY"
+          },
+          {
             "uuid": "e1169e67-2524-3ccc-b665-107561426dfe",
             "title": "Here’s Why Taiwan Semiconductor Manufacturing Holds the Keys to AI’s Explosive Growth",
             "publisher": "24/7 Wall St.",
@@ -16609,14 +16617,6 @@
             "publisher": "24/7 Wall St.",
             "link": "https://finance.yahoo.com/m/01766deb-da27-3da0-950e-70b8fcde298c/roundhill%E2%80%99s-ai-etf-rips-45%25.html",
             "providerPublishTime": "2026-01-03T14:12:46.000Z",
-            "type": "STORY"
-          },
-          {
-            "uuid": "d3aa3714-1ae7-36bd-90d6-a7ef43eaf2f8",
-            "title": "Dow Jones Futures: Trump Says U.S. Seizes Venezuela's Maduro; Nvidia, AMD, Taiwan Semi Due",
-            "publisher": "Investor's Business Daily",
-            "link": "https://finance.yahoo.com/m/d3aa3714-1ae7-36bd-90d6-a7ef43eaf2f8/dow-jones-futures%3A-trump-says.html",
-            "providerPublishTime": "2026-01-03T14:13:16.000Z",
             "type": "STORY"
           },
           {
@@ -18653,7 +18653,7 @@
           "Market Volatility",
           "Data Limited"
         ],
-        "analyzedAt": "2026-01-03T16:24:20.757Z"
+        "analyzedAt": "2026-01-03T16:42:31.098Z"
       }
     },
     {
@@ -20619,7 +20619,7 @@
           "Market Volatility",
           "Data Limited"
         ],
-        "analyzedAt": "2026-01-03T16:24:20.757Z"
+        "analyzedAt": "2026-01-03T16:42:31.099Z"
       }
     },
     {
@@ -22585,7 +22585,7 @@
           "Market Volatility",
           "Data Limited"
         ],
-        "analyzedAt": "2026-01-03T16:24:20.757Z"
+        "analyzedAt": "2026-01-03T16:42:31.099Z"
       }
     },
     {
@@ -22599,43 +22599,43 @@
         "marketCap": 859161701122048,
         "news": [
           {
-            "uuid": "a7971e54-ba9b-3891-a5f3-bead6cb24dab",
-            "title": "Trump to speak after capture of Venezuela's Maduro. How to watch",
-            "publisher": "USA TODAY",
-            "link": "https://finance.yahoo.com/m/a7971e54-ba9b-3891-a5f3-bead6cb24dab/trump-to-speak-after-capture.html",
-            "providerPublishTime": "2026-01-03T16:06:28.000Z",
+            "uuid": "bfe1a078-c90f-3bbd-b92e-f18e1cd03d6b",
+            "title": "Venezuela President Maduro Captured, Trump Says",
+            "publisher": "Investor's Business Daily",
+            "link": "https://finance.yahoo.com/m/bfe1a078-c90f-3bbd-b92e-f18e1cd03d6b/venezuela-president-maduro.html",
+            "providerPublishTime": "2026-01-03T16:31:03.000Z",
             "type": "STORY"
           },
           {
-            "uuid": "057e1174-d3e4-38df-950a-d2543b114458",
-            "title": "Joshua returns to Britain after fatal crash in Nigeria",
-            "publisher": "AFP",
-            "link": "https://finance.yahoo.com/m/057e1174-d3e4-38df-950a-d2543b114458/joshua-returns-to-britain.html",
-            "providerPublishTime": "2026-01-03T16:05:37.000Z",
-            "type": "STORY"
-          },
-          {
-            "uuid": "8634e13b-702f-3bb2-830e-a35b108f9a38",
-            "title": "'Am I Signing Up For A Lifetime Of Resentment?' — Man Earning $85K Learns Girlfriend's Debt Exploded From $60K To $160K",
+            "uuid": "6782b0fa-18da-3566-bdf4-4bda12023473",
+            "title": "Elon Musk's Grok AI Faces Government Backlash Over Creation of Sexualized Images, Including Minors",
             "publisher": "Benzinga",
-            "link": "https://finance.yahoo.com/m/8634e13b-702f-3bb2-830e-a35b108f9a38/%27am-i-signing-up-for-a.html",
-            "providerPublishTime": "2026-01-03T16:01:13.000Z",
+            "link": "https://finance.yahoo.com/m/6782b0fa-18da-3566-bdf4-4bda12023473/elon-musk%27s-grok-ai-faces.html",
+            "providerPublishTime": "2026-01-03T16:30:33.000Z",
             "type": "STORY"
           },
           {
-            "uuid": "573d8609-9f64-3981-be62-5619cce5e810",
-            "title": "Where Will Coca-Cola Stock Be in 5 Years?",
+            "uuid": "d3aa3714-1ae7-36bd-90d6-a7ef43eaf2f8",
+            "title": "Dow Jones Futures: Trump Says U.S. Seizes Venezuela's Maduro; Nvidia, AMD, Taiwan Semi Due",
+            "publisher": "Investor's Business Daily",
+            "link": "https://finance.yahoo.com/m/d3aa3714-1ae7-36bd-90d6-a7ef43eaf2f8/dow-jones-futures%3A-trump-says.html",
+            "providerPublishTime": "2026-01-03T16:29:38.000Z",
+            "type": "STORY"
+          },
+          {
+            "uuid": "899b0695-ead8-3216-a817-96aca33e1bfa",
+            "title": "'Super thrilled' Floridians react to Venezuela strikes",
+            "publisher": "USA TODAY",
+            "link": "https://finance.yahoo.com/m/899b0695-ead8-3216-a817-96aca33e1bfa/%27super-thrilled%27-floridians.html",
+            "providerPublishTime": "2026-01-03T16:22:25.000Z",
+            "type": "STORY"
+          },
+          {
+            "uuid": "b7b83481-0945-32c1-9882-f696083e0fa0",
+            "title": "This Stock Has Soared About 4,000% in Just 2 Decades. After Declining Last Year, Is It Finally a Buy?",
             "publisher": "Motley Fool",
-            "link": "https://finance.yahoo.com/m/573d8609-9f64-3981-be62-5619cce5e810/where-will-coca-cola-stock-be.html",
-            "providerPublishTime": "2026-01-03T16:00:00.000Z",
-            "type": "STORY"
-          },
-          {
-            "uuid": "a12c4c85-d381-3468-9449-8e6c4e11f76f",
-            "title": "Nicolas Maduro: From bus driver to iron-fisted leader",
-            "publisher": "AFP",
-            "link": "https://finance.yahoo.com/m/a12c4c85-d381-3468-9449-8e6c4e11f76f/nicolas-maduro%3A-from-bus.html",
-            "providerPublishTime": "2026-01-03T15:55:56.000Z",
+            "link": "https://finance.yahoo.com/m/b7b83481-0945-32c1-9882-f696083e0fa0/this-stock-has-soared-about.html",
+            "providerPublishTime": "2026-01-03T16:21:56.000Z",
             "type": "STORY"
           }
         ],
@@ -24584,7 +24584,7 @@
           "Market Volatility",
           "Data Limited"
         ],
-        "analyzedAt": "2026-01-03T16:24:20.757Z"
+        "analyzedAt": "2026-01-03T16:42:31.099Z"
       }
     },
     {
@@ -24598,43 +24598,43 @@
         "marketCap": 467438235811840,
         "news": [
           {
-            "uuid": "4fe07edb-1b43-3880-9b69-9eaf88d08a7b",
-            "title": "This Is My No. 1 Recommended Vanguard ETF to Buy in 2026",
-            "publisher": "Motley Fool",
-            "link": "https://finance.yahoo.com/m/4fe07edb-1b43-3880-9b69-9eaf88d08a7b/this-is-my-no.-1-recommended.html",
-            "providerPublishTime": "2026-01-03T16:20:00.000Z",
+            "uuid": "edf1c478-0134-3d40-869a-1aea8f19636c",
+            "title": "Tylenol, Advil, Purina, Haribo face urgent FDA recall",
+            "publisher": "TheStreet",
+            "link": "https://finance.yahoo.com/m/edf1c478-0134-3d40-869a-1aea8f19636c/tylenol%2C-advil%2C-purina%2C.html",
+            "providerPublishTime": "2026-01-03T16:33:00.000Z",
             "type": "STORY"
           },
           {
-            "uuid": "f992374b-ee7c-3257-bc46-6e0d073748af",
-            "title": "Why did the US attack Venezuela and capture Nicolás Maduro?",
-            "publisher": "USA TODAY",
-            "link": "https://finance.yahoo.com/m/f992374b-ee7c-3257-bc46-6e0d073748af/why-did-the-us-attack.html",
-            "providerPublishTime": "2026-01-03T16:18:35.000Z",
+            "uuid": "42b71184-5bf7-3c62-abe2-0fd206e3f2cc",
+            "title": "Trump Posts Video of Military Moves, Photo of Maduro's Capture",
+            "publisher": "The Wall Street Journal",
+            "link": "https://finance.yahoo.com/m/42b71184-5bf7-3c62-abe2-0fd206e3f2cc/trump-posts-video-of-military.html",
+            "providerPublishTime": "2026-01-03T16:32:45.000Z",
             "type": "STORY"
           },
           {
-            "uuid": "a7971e54-ba9b-3891-a5f3-bead6cb24dab",
-            "title": "Trump to speak after capture of Venezuela's Maduro. How to watch",
-            "publisher": "USA TODAY",
-            "link": "https://finance.yahoo.com/m/a7971e54-ba9b-3891-a5f3-bead6cb24dab/trump-to-speak-after-capture.html",
-            "providerPublishTime": "2026-01-03T16:06:28.000Z",
+            "uuid": "bfe1a078-c90f-3bbd-b92e-f18e1cd03d6b",
+            "title": "Venezuela President Maduro Captured, Trump Says",
+            "publisher": "Investor's Business Daily",
+            "link": "https://finance.yahoo.com/m/bfe1a078-c90f-3bbd-b92e-f18e1cd03d6b/venezuela-president-maduro.html",
+            "providerPublishTime": "2026-01-03T16:38:12.000Z",
             "type": "STORY"
           },
           {
-            "uuid": "057e1174-d3e4-38df-950a-d2543b114458",
-            "title": "Joshua returns to Britain after fatal crash in Nigeria",
-            "publisher": "AFP",
-            "link": "https://finance.yahoo.com/m/057e1174-d3e4-38df-950a-d2543b114458/joshua-returns-to-britain.html",
-            "providerPublishTime": "2026-01-03T16:05:37.000Z",
-            "type": "STORY"
-          },
-          {
-            "uuid": "8634e13b-702f-3bb2-830e-a35b108f9a38",
-            "title": "'Am I Signing Up For A Lifetime Of Resentment?' — Man Earning $85K Learns Girlfriend's Debt Exploded From $60K To $160K",
+            "uuid": "6782b0fa-18da-3566-bdf4-4bda12023473",
+            "title": "Elon Musk's Grok AI Faces Government Backlash Over Creation of Sexualized Images, Including Minors",
             "publisher": "Benzinga",
-            "link": "https://finance.yahoo.com/m/8634e13b-702f-3bb2-830e-a35b108f9a38/%27am-i-signing-up-for-a.html",
-            "providerPublishTime": "2026-01-03T16:01:13.000Z",
+            "link": "https://finance.yahoo.com/m/6782b0fa-18da-3566-bdf4-4bda12023473/elon-musk%27s-grok-ai-faces.html",
+            "providerPublishTime": "2026-01-03T16:30:33.000Z",
+            "type": "STORY"
+          },
+          {
+            "uuid": "d3aa3714-1ae7-36bd-90d6-a7ef43eaf2f8",
+            "title": "Dow Jones Futures: Trump Says U.S. Seizes Venezuela's Maduro; Nvidia, AMD, Taiwan Semi Due",
+            "publisher": "Investor's Business Daily",
+            "link": "https://finance.yahoo.com/m/d3aa3714-1ae7-36bd-90d6-a7ef43eaf2f8/dow-jones-futures%3A-trump-says.html",
+            "providerPublishTime": "2026-01-03T16:29:38.000Z",
             "type": "STORY"
           }
         ],
@@ -26583,7 +26583,7 @@
           "Market Volatility",
           "Data Limited"
         ],
-        "analyzedAt": "2026-01-03T16:24:20.757Z"
+        "analyzedAt": "2026-01-03T16:42:31.099Z"
       }
     },
     {
@@ -26597,43 +26597,43 @@
         "marketCap": 36922747518976,
         "news": [
           {
-            "uuid": "4fe07edb-1b43-3880-9b69-9eaf88d08a7b",
-            "title": "This Is My No. 1 Recommended Vanguard ETF to Buy in 2026",
-            "publisher": "Motley Fool",
-            "link": "https://finance.yahoo.com/m/4fe07edb-1b43-3880-9b69-9eaf88d08a7b/this-is-my-no.-1-recommended.html",
-            "providerPublishTime": "2026-01-03T16:20:00.000Z",
+            "uuid": "edf1c478-0134-3d40-869a-1aea8f19636c",
+            "title": "Tylenol, Advil, Purina, Haribo face urgent FDA recall",
+            "publisher": "TheStreet",
+            "link": "https://finance.yahoo.com/m/edf1c478-0134-3d40-869a-1aea8f19636c/tylenol%2C-advil%2C-purina%2C.html",
+            "providerPublishTime": "2026-01-03T16:33:00.000Z",
             "type": "STORY"
           },
           {
-            "uuid": "f992374b-ee7c-3257-bc46-6e0d073748af",
-            "title": "Why did the US attack Venezuela and capture Nicolás Maduro?",
-            "publisher": "USA TODAY",
-            "link": "https://finance.yahoo.com/m/f992374b-ee7c-3257-bc46-6e0d073748af/why-did-the-us-attack.html",
-            "providerPublishTime": "2026-01-03T16:18:35.000Z",
+            "uuid": "42b71184-5bf7-3c62-abe2-0fd206e3f2cc",
+            "title": "Trump Posts Video of Military Moves, Photo of Maduro's Capture",
+            "publisher": "The Wall Street Journal",
+            "link": "https://finance.yahoo.com/m/42b71184-5bf7-3c62-abe2-0fd206e3f2cc/trump-posts-video-of-military.html",
+            "providerPublishTime": "2026-01-03T16:32:45.000Z",
             "type": "STORY"
           },
           {
-            "uuid": "a7971e54-ba9b-3891-a5f3-bead6cb24dab",
-            "title": "Trump to speak after capture of Venezuela's Maduro. How to watch",
-            "publisher": "USA TODAY",
-            "link": "https://finance.yahoo.com/m/a7971e54-ba9b-3891-a5f3-bead6cb24dab/trump-to-speak-after-capture.html",
-            "providerPublishTime": "2026-01-03T16:06:28.000Z",
+            "uuid": "bfe1a078-c90f-3bbd-b92e-f18e1cd03d6b",
+            "title": "Venezuela President Maduro Captured, Trump Says",
+            "publisher": "Investor's Business Daily",
+            "link": "https://finance.yahoo.com/m/bfe1a078-c90f-3bbd-b92e-f18e1cd03d6b/venezuela-president-maduro.html",
+            "providerPublishTime": "2026-01-03T16:38:12.000Z",
             "type": "STORY"
           },
           {
-            "uuid": "057e1174-d3e4-38df-950a-d2543b114458",
-            "title": "Joshua returns to Britain after fatal crash in Nigeria",
-            "publisher": "AFP",
-            "link": "https://finance.yahoo.com/m/057e1174-d3e4-38df-950a-d2543b114458/joshua-returns-to-britain.html",
-            "providerPublishTime": "2026-01-03T16:05:37.000Z",
-            "type": "STORY"
-          },
-          {
-            "uuid": "8634e13b-702f-3bb2-830e-a35b108f9a38",
-            "title": "'Am I Signing Up For A Lifetime Of Resentment?' — Man Earning $85K Learns Girlfriend's Debt Exploded From $60K To $160K",
+            "uuid": "6782b0fa-18da-3566-bdf4-4bda12023473",
+            "title": "Elon Musk's Grok AI Faces Government Backlash Over Creation of Sexualized Images, Including Minors",
             "publisher": "Benzinga",
-            "link": "https://finance.yahoo.com/m/8634e13b-702f-3bb2-830e-a35b108f9a38/%27am-i-signing-up-for-a.html",
-            "providerPublishTime": "2026-01-03T16:01:13.000Z",
+            "link": "https://finance.yahoo.com/m/6782b0fa-18da-3566-bdf4-4bda12023473/elon-musk%27s-grok-ai-faces.html",
+            "providerPublishTime": "2026-01-03T16:30:33.000Z",
+            "type": "STORY"
+          },
+          {
+            "uuid": "d3aa3714-1ae7-36bd-90d6-a7ef43eaf2f8",
+            "title": "Dow Jones Futures: Trump Says U.S. Seizes Venezuela's Maduro; Nvidia, AMD, Taiwan Semi Due",
+            "publisher": "Investor's Business Daily",
+            "link": "https://finance.yahoo.com/m/d3aa3714-1ae7-36bd-90d6-a7ef43eaf2f8/dow-jones-futures%3A-trump-says.html",
+            "providerPublishTime": "2026-01-03T16:29:38.000Z",
             "type": "STORY"
           }
         ],
@@ -28582,7 +28582,7 @@
           "Market Volatility",
           "Data Limited"
         ],
-        "analyzedAt": "2026-01-03T16:24:20.757Z"
+        "analyzedAt": "2026-01-03T16:42:31.099Z"
       }
     }
   ]

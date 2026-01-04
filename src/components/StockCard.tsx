@@ -8,7 +8,7 @@ import { twMerge } from 'tailwind-merge';
 interface StockCardProps {
     data: {
         stock: StockData;
-        analysis: AnalysisResult;
+        analysis?: AnalysisResult | null;
     };
 }
 
@@ -16,14 +16,17 @@ export function StockCard({ data }: StockCardProps) {
     const { stock, analysis } = data;
     const isPositive = stock.change >= 0;
 
-    const sentimentColor =
-        analysis.sentimentScore >= 70 ? 'text-emerald-400' :
-            analysis.sentimentScore >= 40 ? 'text-yellow-400' : 'text-red-400';
+    // Handle missing analysis gracefully
+    const hasAnalysis = !!analysis;
 
-    const recommendationColor =
-        analysis.recommendation === 'BUY' ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20' :
-            analysis.recommendation === 'SELL' ? 'bg-red-500/10 text-red-400 border-red-500/20' :
-                'bg-yellow-500/10 text-yellow-400 border-yellow-500/20';
+    const sentimentColor = hasAnalysis ?
+        (analysis!.sentimentScore >= 70 ? 'text-emerald-400' :
+            analysis!.sentimentScore >= 40 ? 'text-yellow-400' : 'text-red-400') : 'text-slate-600';
+
+    const recommendationColor = hasAnalysis ?
+        (analysis!.recommendation === 'BUY' ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20' :
+            analysis!.recommendation === 'SELL' ? 'bg-red-500/10 text-red-400 border-red-500/20' :
+                'bg-yellow-500/10 text-yellow-400 border-yellow-500/20') : 'bg-slate-800 text-slate-500 border-slate-700';
 
     return (
         <Link href={`/stock/${encodeURIComponent(stock.symbol)}`} className="group relative block bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-slate-600 transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-blue-500/5">
@@ -33,7 +36,7 @@ export function StockCard({ data }: StockCardProps) {
                     <p className="text-sm text-slate-400 font-mono">{stock.symbol}</p>
                 </div>
                 <div className={twMerge("px-3 py-1 rounded-full text-xs font-bold border", recommendationColor)}>
-                    {analysis.recommendation}
+                    {hasAnalysis ? analysis!.recommendation : 'READY'}
                 </div>
             </div>
 
@@ -48,33 +51,41 @@ export function StockCard({ data }: StockCardProps) {
                 </div>
             </div>
 
-            <div className="space-y-3 border-t border-slate-800 pt-4">
-                <div className="flex justify-between items-center text-sm">
-                    <span className="text-slate-500">AI Confidence</span>
-                    <div className="flex items-center gap-2">
-                        <div className="w-20 h-1.5 bg-slate-800 rounded-full overflow-hidden">
-                            <div
-                                className="h-full bg-blue-500 rounded-full"
-                                style={{ width: `${analysis.confidence}%` }}
-                            />
+            {hasAnalysis ? (
+                <div className="space-y-3 border-t border-slate-800 pt-4">
+                    <div className="flex justify-between items-center text-sm">
+                        <span className="text-slate-500">AI Confidence</span>
+                        <div className="flex items-center gap-2">
+                            <div className="w-20 h-1.5 bg-slate-800 rounded-full overflow-hidden">
+                                <div
+                                    className="h-full bg-blue-500 rounded-full"
+                                    style={{ width: `${analysis!.confidence}%` }}
+                                />
+                            </div>
+                            <span className="font-mono text-blue-400">{analysis!.confidence}%</span>
                         </div>
-                        <span className="font-mono text-blue-400">{analysis.confidence}%</span>
+                    </div>
+
+                    <div className="flex justify-between items-center text-sm">
+                        <span className="text-slate-500">News Sentiment</span>
+                        <span className={twMerge("font-mono font-bold", sentimentColor)}>
+                            {analysis!.sentimentScore}/100
+                        </span>
                     </div>
                 </div>
+            ) : (
+                <div className="border-t border-slate-800 pt-4 text-center">
+                    <span className="text-xs text-blue-400 font-medium">✨ Tap to Analyze</span>
+                </div>
+            )}
 
-                <div className="flex justify-between items-center text-sm">
-                    <span className="text-slate-500">News Sentiment</span>
-                    <span className={twMerge("font-mono font-bold", sentimentColor)}>
-                        {analysis.sentimentScore}/100
+            {hasAnalysis && (
+                <div className="mt-4 pt-4 border-t border-slate-800 flex justify-end">
+                    <span className="text-xs font-mono text-slate-600 bg-slate-800/50 px-2 py-1 rounded">
+                        {analysis!.provider === 'Groq' ? '⚡ Llama-3.3' : '✨ Gemini 2.0'}
                     </span>
                 </div>
-            </div>
-
-            <div className="mt-4 pt-4 border-t border-slate-800 flex justify-end">
-                <span className="text-xs font-mono text-slate-600 bg-slate-800/50 px-2 py-1 rounded">
-                    {analysis.provider === 'Groq' ? '⚡ Llama-3.3' : '✨ Gemini 2.0'}
-                </span>
-            </div>
+            )}
 
             {/* Summary removed for cleaner dashboard */}
         </Link>

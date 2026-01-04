@@ -1,69 +1,94 @@
-import { getAnalysisResults } from '@/lib/storage';
+import { TARGET_STOCKS, GROUPS } from '@/lib/consts';
+import { getStockData } from '@/lib/finance';
+import { getCachedAnalysis } from '@/lib/ai';
 import { StockCard } from '@/components/StockCard';
 import { RefreshButton } from '@/components/RefreshButton';
 
-export const revalidate = 0; // Disable cache for realtime-ish updates
+export const dynamic = 'force-dynamic'; // Force real-time (no caching of page)
 
-export default async function Home() {
-  const data = await getAnalysisResults();
+export default async function Dashboard() {
+  // 1. Fetch Real-Time Market Data & Cached AI in Parallel
+  const results = await Promise.all(
+    TARGET_STOCKS.map(async (item) => {
+      try {
+        // Parallelize Finance and AI Cache lookup
+        const [stock, analysis] = await Promise.all([
+          getStockData(item.symbol),
+          getCachedAnalysis(item.symbol)
+        ]);
+
+        // Override name if provided in config
+        if (item.name) stock.name = item.name;
+
+        return { stock, analysis };
+      } catch (e) {
+        console.error(`Failed to load dashboard data for ${item.symbol}:`, e);
+        return null;
+      }
+    })
+  );
+
+  const validResults = results.filter(r => r !== null);
+
+  // 2. Group Data
+  const indices = validResults.filter(r => GROUPS.INDICES.includes(r!.stock.symbol));
+  const usStocks = validResults.filter(r => GROUPS.US.includes(r!.stock.symbol));
+  const krStocks = validResults.filter(r => GROUPS.KR.includes(r!.stock.symbol));
 
   return (
     <main className="min-h-screen bg-slate-950 text-white p-8">
-      <div className="max-w-7xl mx-auto space-y-8">
-        <header className="flex justify-between items-center border-b border-slate-800 pb-6">
+      <div className="max-w-7xl mx-auto space-y-12">
+        <header className="flex justify-between items-center mb-8 border-b border-slate-800 pb-6">
           <div>
-            <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400">
-              Market Intelligence Agent
+            <h1 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
+              Market Intelligence
             </h1>
-            <p className="text-slate-400 mt-2">
-              AI-Powered Stock Analysis & Sentiment Tracking
-            </p>
+            <p className="text-slate-400 mt-2">Real-time Analysis & Semantic Search</p>
           </div>
-          <div className="text-right">
+          <div className="flex items-center gap-4">
+            <div className="text-right text-xs text-slate-500 hidden md:block">
+              <p>Global Market Status: <span className="text-green-400">OPEN</span></p>
+              <p>Data Source: Real-time</p>
+            </div>
             <RefreshButton />
-            <p className="text-xs text-slate-500 mt-1">
-              Last Updated: {data?.lastUpdated ? new Date(data.lastUpdated).toLocaleString() : 'Never'}
-            </p>
           </div>
         </header>
 
-        {!data ? (
-          <div className="flex flex-col items-center justify-center h-64 text-slate-500 animate-pulse">
-            <p>No analysis data found. Click Refresh to start.</p>
+        <section>
+          <h2 className="text-xl font-bold mb-6 flex items-center gap-2 text-slate-300">
+            <span className="w-1 h-6 bg-blue-500 rounded-full"></span>
+            Market Indices
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {indices.map((item) => (
+              <StockCard key={item!.stock.symbol} data={item as any} />
+            ))}
           </div>
-        ) : (
-          <div className="space-y-12">
-            {/* Section 1: Market Indices */}
-            <section>
-              <h2 className="text-2xl font-bold mb-4 text-purple-400 border-b border-purple-500/20 pb-2">Market Indices</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                {data.results.filter(r => ['^VIX', 'VUG', 'VTV', 'HYG'].includes(r.stock.symbol)).map((item) => (
-                  <StockCard key={item.stock.symbol} data={item} />
-                ))}
-              </div>
-            </section>
+        </section>
 
-            {/* Section 2: US Market */}
-            <section>
-              <h2 className="text-2xl font-bold mb-4 text-blue-400 border-b border-blue-500/20 pb-2">US Market Leaders</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {data.results.filter(r => ['SPY', 'QQQ', 'MAGA', 'NVDA', 'GOOGL'].includes(r.stock.symbol)).map((item) => (
-                  <StockCard key={item.stock.symbol} data={item} />
-                ))}
-              </div>
-            </section>
-
-            {/* Section 3: Korean Market */}
-            <section>
-              <h2 className="text-2xl font-bold mb-4 text-emerald-400 border-b border-emerald-500/20 pb-2">Korean Market</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {data.results.filter(r => ['^KS11', '^KQ11', '005930.KS', '000660.KS', '035420.KS'].includes(r.stock.symbol)).map((item) => (
-                  <StockCard key={item.stock.symbol} data={item} />
-                ))}
-              </div>
-            </section>
+        <section>
+          <h2 className="text-xl font-bold mb-6 flex items-center gap-2 text-slate-300">
+            <span className="w-1 h-6 bg-purple-500 rounded-full"></span>
+            US Market Leaders
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {usStocks.map((item) => (
+              <StockCard key={item!.stock.symbol} data={item as any} />
+            ))}
           </div>
-        )}
+        </section>
+
+        <section>
+          <h2 className="text-xl font-bold mb-6 flex items-center gap-2 text-slate-300">
+            <span className="w-1 h-6 bg-emerald-500 rounded-full"></span>
+            Korea Market
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {krStocks.map((item) => (
+              <StockCard key={item!.stock.symbol} data={item as any} />
+            ))}
+          </div>
+        </section>
       </div>
     </main>
   );

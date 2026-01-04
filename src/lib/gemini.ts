@@ -72,8 +72,8 @@ function getRuleBasedAnalysis(stock: StockData): AnalysisResult {
 
 export async function analyzeStockBatch(stocks: StockData[]): Promise<AnalysisResult[]> {
     // Try to use 1.5-flash-001 or 2.0-flash if quota permits
-    // 2.0-flash gave 429 quota 0. 1.5-flash-001 is standard free tier.
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-001" });
+    // 2.0-flash gave 429 quota 0. Switch to 2.0-flash-lite as requested.
+    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-lite" });
 
     // Optimize payload: Only send necessary fields to save tokens
     const simplifiedData = stocks.map(s => ({

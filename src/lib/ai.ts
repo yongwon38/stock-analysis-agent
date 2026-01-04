@@ -81,7 +81,7 @@ export async function getStockAnalysis(stock: StockData): Promise<AnalysisResult
     return result;
 }
 
-async function getCachedAnalysis(symbol: string): Promise<AnalysisResult | null> {
+export async function getCachedAnalysis(symbol: string): Promise<AnalysisResult | null> {
     // Check Memory First
     if (globalCache.has(symbol)) {
         const memItem = globalCache.get(symbol);
