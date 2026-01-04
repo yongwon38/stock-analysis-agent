@@ -29,8 +29,8 @@ export function StockCard({ data }: StockCardProps) {
         <Link href={`/stock/${encodeURIComponent(stock.symbol)}`} className="group relative block bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-slate-600 transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-blue-500/5">
             <div className="flex justify-between items-start mb-4">
                 <div>
-                    <h3 className="text-xl font-bold">{stock.symbol}</h3>
-                    <p className="text-sm text-slate-400 truncate max-w-[150px]">{stock.name}</p>
+                    <h3 className="text-xl font-bold truncate max-w-[180px]" title={stock.name}>{stock.name}</h3>
+                    <p className="text-sm text-slate-400 font-mono">{stock.symbol}</p>
                 </div>
                 <div className={twMerge("px-3 py-1 rounded-full text-xs font-bold border", recommendationColor)}>
                     {analysis.recommendation}
@@ -70,12 +70,7 @@ export function StockCard({ data }: StockCardProps) {
                 </div>
             </div>
 
-            {/* Hidden detail overlay or link could go here */}
-            <div className="mt-4 pt-4 border-t border-slate-800">
-                <p className="text-xs text-slate-400 line-clamp-3 leading-relaxed">
-                    {analysis.summary}
-                </p>
-            </div>
+            {/* Summary removed for cleaner dashboard */}
         </Link>
     );
 }
