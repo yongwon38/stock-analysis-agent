@@ -25,8 +25,14 @@ export interface AnalysisResult {
 /**
  * Main Analysis Function (On-Demand + Caching + Multi-Provider)
  */
+// In-Memory Cache for Serverless environments (where fs is read-only)
+const globalCache = new Map<string, AnalysisResult>();
+
+/**
+ * Main Analysis Function (On-Demand + Caching + Multi-Provider)
+ */
 export async function getStockAnalysis(stock: StockData): Promise<AnalysisResult> {
-    // 1. Check Cache
+    // 1. Check Cache (File first, then Memory)
     const cached = await getCachedAnalysis(stock.symbol);
     if (cached) {
         console.log(`[Cache Hit] Using saved analysis for ${stock.symbol} (${cached.analyzedAt})`);
@@ -51,28 +57,48 @@ export async function getStockAnalysis(stock: StockData): Promise<AnalysisResult
         }
     }
 
-    // 4. Save to Cache (Async update)
-    // We need to read the latest full DB, update this one item, and save.
-    // Ideally this should be optimized, but for <100 stocks JSON file is fine.
-    await updateCache(stock, result);
+    // 4. Update Caches (Async/Safe)
+    // We update memory immediately
+    globalCache.set(stock.symbol, result);
+
+    // We Try to save to disk, but don't crash if it fails (Vercel)
+    try {
+        await updateCache(stock, result);
+    } catch (e) {
+        console.warn("Could not save analysis to disk (likely read-only FS). Using in-memory cache only.", e);
+    }
 
     return result;
 }
 
 async function getCachedAnalysis(symbol: string): Promise<AnalysisResult | null> {
-    const data = await getAnalysisResults();
-    if (!data) return null;
+    // Check Memory First
+    if (globalCache.has(symbol)) {
+        const memItem = globalCache.get(symbol);
+        if (memItem && isFresh(memItem.analyzedAt)) return memItem;
+    }
 
-    const item = data.results.find(r => r.stock.symbol === symbol);
-    if (!item || !item.analysis) return null;
+    // Check File
+    try {
+        const data = await getAnalysisResults();
+        if (!data) return null;
 
-    const analyzedAt = new Date(item.analysis.analyzedAt).getTime();
-    const now = new Date().getTime();
+        const item = data.results.find(r => r.stock.symbol === symbol);
+        if (!item || !item.analysis) return null;
 
-    if (now - analyzedAt < CACHE_DURATION_MS) {
-        return item.analysis;
+        if (isFresh(item.analysis.analyzedAt)) {
+            return item.analysis;
+        }
+    } catch (e) {
+        console.warn("Failed to read file cache:", e);
     }
     return null;
+}
+
+function isFresh(dateStr: string): boolean {
+    const analyzedAt = new Date(dateStr).getTime();
+    const now = new Date().getTime();
+    return (now - analyzedAt < CACHE_DURATION_MS);
 }
 
 async function updateCache(stock: StockData, analysis: AnalysisResult) {
