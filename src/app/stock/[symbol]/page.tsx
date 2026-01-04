@@ -16,25 +16,42 @@ export default async function StockPage(props: PageProps) {
     const decodedSymbol = decodeURIComponent(symbol);
 
     // 1. Fetch Request: Get fresh stock data (Real-time)
-    let stock, analysis;
+    let stock;
     try {
         console.log(`[On-Demand] Fetching live data for ${decodedSymbol}...`);
         stock = await getStockData(decodedSymbol);
-
-        // 2. AI Request: Check Cache -> analyze via AI -> Save
-        console.log(`[On-Demand] Checking AI analysis for ${decodedSymbol}...`);
-        analysis = await getStockAnalysis(stock);
     } catch (e) {
-        console.error("Failed to load stock page data:", e);
+        console.error("Failed to load stock data:", e);
         return (
             <div className="min-h-screen flex items-center justify-center text-slate-400 bg-slate-950">
                 <div className="text-center">
-                    <h2 className="text-xl font-bold text-red-400 mb-2">Analysis Failed</h2>
+                    <h2 className="text-xl font-bold text-red-400 mb-2">Stock Not Found</h2>
                     <p>Could not retrieve data for {decodedSymbol}.</p>
-                    <p className="text-sm mt-2 font-mono text-slate-600">{e instanceof Error ? e.message : String(e)}</p>
                 </div>
             </div>
         );
+    }
+
+    // 2. AI Request: Check Cache -> analyze via AI -> Save
+    // FAIL-SAFE: If AI fails, we still show the page with an "Unavailable" state.
+    let analysis;
+    try {
+        console.log(`[On-Demand] Checking AI analysis for ${decodedSymbol}...`);
+        analysis = await getStockAnalysis(stock);
+    } catch (e) {
+        console.error("AI Analysis Failed (Page will render without it):", e);
+        // Create a placeholder "Empty" analysis so the UI doesn't crash
+        analysis = {
+            symbol: stock.symbol,
+            recommendation: 'HOLD', // Default
+            confidence: 0,
+            sentimentScore: 50,
+            summary: "AI Analysis is currently unavailable due to API configuration or rate limits. Please verify your API Keys in Vercel Settings.",
+            keyFactors: ["Analysis Unavailable"],
+            riskFactors: ["Data only"],
+            analyzedAt: new Date().toISOString(),
+            provider: 'System'
+        };
     }
 
     const isPositive = stock.change >= 0;
