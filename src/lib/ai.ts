@@ -19,7 +19,7 @@ export interface AnalysisResult {
     keyFactors: string[];
     riskFactors: string[];
     analyzedAt: string;
-    provider?: 'Gemini' | 'Groq';
+    provider?: 'Gemini' | 'Groq' | 'System';
 }
 
 /**
@@ -34,7 +34,8 @@ const globalCache = new Map<string, AnalysisResult>();
 export async function getStockAnalysis(stock: StockData): Promise<AnalysisResult> {
     // 1. Check Cache (File first, then Memory)
     const cached = await getCachedAnalysis(stock.symbol);
-    if (cached) {
+    // Only use cache if it was a REAL analysis (not a fallback)
+    if (cached && cached.provider !== 'System') {
         console.log(`[Cache Hit] Using saved analysis for ${stock.symbol} (${cached.analyzedAt})`);
         return cached;
     }
@@ -58,14 +59,16 @@ export async function getStockAnalysis(stock: StockData): Promise<AnalysisResult
     }
 
     // 4. Update Caches (Async/Safe)
-    // We update memory immediately
-    globalCache.set(stock.symbol, result);
+    // Only cache if successful (not System fallback)
+    if (result.provider !== 'System') {
+        globalCache.set(stock.symbol, result);
 
-    // We Try to save to disk, but don't crash if it fails (Vercel)
-    try {
-        await updateCache(stock, result);
-    } catch (e) {
-        console.warn("Could not save analysis to disk (likely read-only FS). Using in-memory cache only.", e);
+        // We Try to save to disk, but don't crash if it fails (Vercel)
+        try {
+            await updateCache(stock, result);
+        } catch (e) {
+            console.warn("Could not save analysis to disk (likely read-only FS). Using in-memory cache only.", e);
+        }
     }
 
     return result;
