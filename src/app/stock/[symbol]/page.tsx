@@ -1,9 +1,18 @@
 import { getStockData } from '@/lib/finance';
 import { getStockAnalysis } from '@/lib/ai';
+import { PriceChart } from '@/components/PriceChart';
+import Link from 'next/link';
+import { ArrowLeft, ExternalLink } from 'lucide-react';
+import { clsx } from 'clsx';
+
+interface PageProps {
+    params: Promise<{ symbol: string }>;
+}
 
 // Next.js 15+ params are async
-export default async function StockPage({ params }: PageProps) {
-    const { symbol } = await params;
+export default async function StockPage(props: PageProps) {
+    const params = await props.params;
+    const { symbol } = params;
     const decodedSymbol = decodeURIComponent(symbol);
 
     // 1. Fetch Request: Get fresh stock data (Real-time)
