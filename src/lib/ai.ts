@@ -3,23 +3,9 @@ import { StockData } from './finance';
 import { getAnalysisResults, saveAnalysisResults } from './storage';
 
 // Configuration
-// FAILSAFE: Hardcoded keys for Vercel stability (Obfuscated)
-const GROQ_P1 = "gsk_iLZe9nlwcJo";
-const GROQ_P2 = "NFMyXNMuhWGdyb3";
-const GROQ_P3 = "FYEf5bNUmFr0VgxwT9HPLCJ2q7";
-const GROQ_FAILSAFE = `${GROQ_P1}${GROQ_P2}${GROQ_P3}`;
-
-const GEMINI_P1 = "AIzaSyBqCAGWQY";
-const GEMINI_P2 = "zhvB2ZHfNej-kh7";
-const GEMINI_P3 = "h-9xY1C-50";
-const GEMINI_FAILSAFE = `${GEMINI_P1}${GEMINI_P2}${GEMINI_P3}`;
-
-const GROQ_API_KEY = process.env.GROQ_API_KEY || GROQ_FAILSAFE;
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || GEMINI_FAILSAFE;
-
-// Export status for Debug Page
-export const USING_GEMINI_FALLBACK = !process.env.GEMINI_API_KEY;
-export const USING_GROQ_FALLBACK = !process.env.GROQ_API_KEY;
+// NO HARDCODING: Keys must be provided via safe Vercel Environment Variables
+const GROQ_API_KEY = process.env.GROQ_API_KEY;
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
 // Helper to get effective keys (for debug page only)
 export function getEffectiveGeminiKey() { return GEMINI_API_KEY; }
@@ -30,7 +16,7 @@ const globalCache = new Map<string, AnalysisResult>();
 const CACHE_DURATION_MS = 24 * 60 * 60 * 1000;
 
 // Initialize Gemini
-const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
+const genAI = new GoogleGenerativeAI(GEMINI_API_KEY || "");
 
 export interface AnalysisResult {
     symbol: string;
@@ -43,12 +29,6 @@ export interface AnalysisResult {
     analyzedAt: string;
     provider?: 'Gemini' | 'Groq' | 'System';
 }
-
-/**
- * Main Analysis Function (On-Demand + Caching + Multi-Provider)
- */
-// In-Memory Cache for Serverless environments (where fs is read-only)
-
 
 /**
  * Main Analysis Function (On-Demand + Caching + Multi-Provider)
@@ -137,10 +117,6 @@ async function updateCache(stock: StockData, analysis: AnalysisResult) {
         analysis: analysis
     });
 
-    // Sort by symbol or keep insertion order? Let's just save.
-    // Wait, let's keep the user-defined order if possible, or just append. 
-    // Appending is safer for now.
-
     const newData = {
         lastUpdated: new Date().toISOString(),
         results: filtered
@@ -152,7 +128,7 @@ async function updateCache(stock: StockData, analysis: AnalysisResult) {
 // --- Providers ---
 
 async function analyzeWithGemini(data: StockData): Promise<AnalysisResult> {
-    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-lite" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
     const prompt = generatePrompt(data);
 
     // Simple verification of quota error handling
@@ -179,7 +155,7 @@ async function analyzeWithGroq(data: StockData): Promise<AnalysisResult> {
         },
         body: JSON.stringify({
             messages: [{ role: "user", content: prompt }],
-            model: "llama3-70b-8192", // More stable ID than 3.3-versatile
+            model: "llama-3.3-70b-versatile", // UPDATED: Valid Model ID
             temperature: 0.1
         })
     });

@@ -1,6 +1,5 @@
-
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import { getEffectiveGeminiKey, getEffectiveGroqKey, USING_GEMINI_FALLBACK, USING_GROQ_FALLBACK } from '@/lib/ai';
+import { getEffectiveGeminiKey, getEffectiveGroqKey } from '@/lib/ai';
 
 export const dynamic = 'force-dynamic';
 
@@ -33,7 +32,7 @@ export default async function DebugPage() {
             },
             body: JSON.stringify({
                 messages: [{ role: "user", content: "Test" }],
-                model: "llama3-70b-8192",
+                model: "llama-3.3-70b-versatile",
                 max_tokens: 1
             })
         });
@@ -55,10 +54,10 @@ export default async function DebugPage() {
                     <h2 className="text-xl mb-4 text-white">Environment Variables</h2>
                     <ul className="space-y-2">
                         <li>
-                            GEMINI_API_KEY: <span className={!USING_GEMINI_FALLBACK ? "text-green-500" : "text-yellow-500"}>{!USING_GEMINI_FALLBACK ? "Configured in Vercel" : "Using Hardcoded Fallback"}</span>
+                            GEMINI_API_KEY: <span className={geminiKey ? "text-green-500" : "text-red-500"}>{geminiKey ? `Present (${geminiKey.substring(0, 4)}...)` : "MISSING"}</span>
                         </li>
                         <li>
-                            GROQ_API_KEY: <span className={!USING_GROQ_FALLBACK ? "text-green-500" : "text-yellow-500"}>{!USING_GROQ_FALLBACK ? "Configured in Vercel" : "Using Hardcoded Fallback"}</span>
+                            GROQ_API_KEY: <span className={groqKey ? "text-green-500" : "text-red-500"}>{groqKey ? `Present (${groqKey.substring(0, 4)}...)` : "MISSING"}</span>
                         </li>
                     </ul>
                 </div>
