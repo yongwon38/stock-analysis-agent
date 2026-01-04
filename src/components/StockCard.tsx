@@ -82,7 +82,7 @@ export function StockCard({ data }: StockCardProps) {
             {hasAnalysis && (
                 <div className="mt-4 pt-4 border-t border-slate-800 flex justify-end">
                     <span className="text-xs font-mono text-slate-600 bg-slate-800/50 px-2 py-1 rounded">
-                        {analysis!.provider === 'Groq' ? '⚡ Llama-3.3' : '✨ Gemini 2.0'}
+                        {analysis!.provider === 'Groq' ? '⚡ Llama-3.3' : analysis!.provider === 'Gemini' ? '✨ Gemini 2.0' : '⚠️ System'}
                     </span>
                 </div>
             )}

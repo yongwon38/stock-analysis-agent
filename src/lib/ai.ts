@@ -164,7 +164,7 @@ async function analyzeWithGroq(data: StockData): Promise<AnalysisResult> {
         },
         body: JSON.stringify({
             messages: [{ role: "user", content: prompt }],
-            model: "llama-3.3-70b-versatile",
+            model: "llama3-70b-8192", // More stable ID than 3.3-versatile
             temperature: 0.1
         })
     });
