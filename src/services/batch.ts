@@ -1,5 +1,5 @@
 import { getStockData } from '@/lib/finance';
-import { analyzeStockBatch } from '@/lib/gemini';
+// import { analyzeStockBatch } from '@/lib/gemini'; // Deprecated
 import { saveAnalysisResults } from '@/lib/storage';
 
 const TARGET_STOCKS = [
@@ -48,22 +48,29 @@ export async function runBatchAnalysis() {
         }
     }
 
-    // 2. Perform Batch Analysis (AI or Fallback)
-    console.log(`Analyzing ${stockDataList.length} stocks in batch...`);
-    const analysisResults = await analyzeStockBatch(stockDataList);
-
-    // 3. Merge results
+    // 2. Perform Analysis (Serial to prevent race condition on JSON file)
+    console.log(`Starting serialized analysis for ${stockDataList.length} stocks...`);
     const results = [];
-    for (let i = 0; i < stockDataList.length; i++) {
-        const stock = stockDataList[i];
-        // Find matching analysis
-        const analysis = analysisResults.find((r: any) => r.symbol === stock.symbol);
 
-        if (analysis) {
+    // Import new AI service
+    const { getStockAnalysis } = require('@/lib/ai');
+
+    for (const stock of stockDataList) {
+        try {
+            console.log(`Analyzing ${stock.symbol}...`);
+            // getStockAnalysis checks cache and saves internally.
+            const analysis = await getStockAnalysis(stock);
+
             results.push({
                 stock: stock,
                 analysis: analysis
             });
+
+            // Small delay to be polite
+            await new Promise(resolve => setTimeout(resolve, 2000));
+
+        } catch (e) {
+            console.error(`Skipping ${stock.symbol} due to analysis error:`, e);
         }
     }
 

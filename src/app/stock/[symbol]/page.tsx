@@ -1,34 +1,33 @@
-import { getAnalysisResults } from '@/lib/storage';
-import { PriceChart } from '@/components/PriceChart';
-import Link from 'next/link';
-import { ArrowLeft, ExternalLink } from 'lucide-react';
-import { clsx } from 'clsx';
-// I'll render markdown simply by splitting lines or just whitespace-pre-wrap for now to save a package install roundtrip.
-// Actually, I can just use whitespace-pre-line.
-
-interface PageProps {
-    params: {
-        symbol: string;
-    };
-}
+import { getStockData } from '@/lib/finance';
+import { getStockAnalysis } from '@/lib/ai';
 
 // Next.js 15+ params are async
 export default async function StockPage({ params }: PageProps) {
     const { symbol } = await params;
     const decodedSymbol = decodeURIComponent(symbol);
 
-    const data = await getAnalysisResults();
-    const item = data?.results.find(r => r.stock.symbol === decodedSymbol);
+    // 1. Fetch Request: Get fresh stock data (Real-time)
+    let stock, analysis;
+    try {
+        console.log(`[On-Demand] Fetching live data for ${decodedSymbol}...`);
+        stock = await getStockData(decodedSymbol);
 
-    if (!item) {
+        // 2. AI Request: Check Cache -> analyze via AI -> Save
+        console.log(`[On-Demand] Checking AI analysis for ${decodedSymbol}...`);
+        analysis = await getStockAnalysis(stock);
+    } catch (e) {
+        console.error("Failed to load stock page data:", e);
         return (
             <div className="min-h-screen flex items-center justify-center text-slate-400 bg-slate-950">
-                Stock not found within the batch results.
+                <div className="text-center">
+                    <h2 className="text-xl font-bold text-red-400 mb-2">Analysis Failed</h2>
+                    <p>Could not retrieve data for {decodedSymbol}.</p>
+                    <p className="text-sm mt-2 font-mono text-slate-600">{e instanceof Error ? e.message : String(e)}</p>
+                </div>
             </div>
         );
     }
 
-    const { stock, analysis } = item;
     const isPositive = stock.change >= 0;
 
     return (
