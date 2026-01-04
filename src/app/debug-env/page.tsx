@@ -57,7 +57,7 @@ export default async function DebugPage() {
                             GEMINI_API_KEY: <span className={geminiKey ? "text-green-500" : "text-red-500"}>{geminiKey ? `Present (${geminiKey.substring(0, 4)}...)` : "MISSING"}</span>
                         </li>
                         <li>
-                            GROQ_API_KEY: <span className={groqKey ? "text-green-500" : "text-red-500"}>{groqKey ? `Present (${groqKey.substring(0, 4)}...)` : "MISSING"}</span>
+                            GROQ_API_KEY: <span className={groqKey ? "text-green-500" : "text-yellow-500"}>{groqKey ? `Present (${groqKey.substring(0, 4)}...)` : "Using Hardcoded Fallback"}</span>
                         </li>
                     </ul>
                 </div>
@@ -73,6 +73,16 @@ export default async function DebugPage() {
                 <div className="border border-green-800 p-4 rounded text-xs text-slate-500">
                     <p>Current Time: {new Date().toISOString()}</p>
                     <p>Node Env: {process.env.NODE_ENV}</p>
+                    <p>Vercel Env: {process.env.VERCEL_ENV || 'Unknown'}</p>
+                </div>
+
+                <div className="mt-4 p-4 border border-yellow-900/50 text-yellow-600 rounded text-sm">
+                    <h3 className="font-bold mb-2 text-yellow-500">Why are keys MISSING?</h3>
+                    <ul className="list-disc list-inside space-y-1">
+                        <li>Vercel variables are <strong>snapshot</strong> at build time.</li>
+                        <li>If you added keys <em>after</em> the last deployment, they are not visible yet.</li>
+                        <li><strong>Solution:</strong> This page update triggered a new build. If you still see MISSING, double-check that the keys are in the <strong>Production</strong> environment settings in Vercel.</li>
+                    </ul>
                 </div>
             </div>
         </div>
