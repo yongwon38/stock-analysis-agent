@@ -1,7 +1,7 @@
 import { ArrowUp, ArrowDown, Minus } from 'lucide-react';
 import Link from 'next/link';
 import { StockData } from '@/lib/finance';
-import { AnalysisResult } from '@/lib/gemini';
+import { AnalysisResult } from '@/lib/ai';
 import { clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
@@ -68,6 +68,12 @@ export function StockCard({ data }: StockCardProps) {
                         {analysis.sentimentScore}/100
                     </span>
                 </div>
+            </div>
+
+            <div className="mt-4 pt-4 border-t border-slate-800 flex justify-end">
+                <span className="text-xs font-mono text-slate-600 bg-slate-800/50 px-2 py-1 rounded">
+                    {analysis.provider === 'Groq' ? '⚡ Llama-3.3' : '✨ Gemini 2.0'}
+                </span>
             </div>
 
             {/* Summary removed for cleaner dashboard */}

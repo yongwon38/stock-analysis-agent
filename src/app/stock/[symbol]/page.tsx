@@ -101,7 +101,7 @@ export default async function StockPage(props: PageProps) {
                                 {analysis.summary}
                             </div>
                             <div className="mt-4 pt-4 border-t border-slate-800 text-right text-xs text-slate-500 font-mono">
-                                Analysis Generated: {analysis.analyzedAt ? new Date(analysis.analyzedAt).toLocaleString() : 'Just now'}
+                                Analysis Generated: {analysis.analyzedAt ? new Date(analysis.analyzedAt).toLocaleString() : 'Just now'} • Model: <span className="text-slate-400 font-bold">{analysis.provider === 'Groq' ? 'Llama-3.3-70b (via Groq)' : 'Gemini 2.0 Flash'}</span>
                             </div>
                         </section>
                     </div>
