@@ -1,6 +1,7 @@
-import yahooFinance from 'yahoo-finance2';
+import YahooFinance from 'yahoo-finance2';
 import Parser from 'rss-parser';
 
+const yahooFinance = new YahooFinance({ suppressNotices: ['yahooSurvey'] });
 const parser = new Parser();
 
 export interface NewsItem {
