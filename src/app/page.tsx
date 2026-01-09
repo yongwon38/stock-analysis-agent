@@ -61,7 +61,7 @@ export default async function Dashboard() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {indices.map((item) => (
-              <StockCard key={item!.stock.symbol} data={item as any} />
+              <StockCard key={item!.stock.symbol} stock={item!.stock} analysis={item!.analysis as any} />
             ))}
           </div>
         </section>
@@ -73,7 +73,7 @@ export default async function Dashboard() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {usStocks.map((item) => (
-              <StockCard key={item!.stock.symbol} data={item as any} />
+              <StockCard key={item!.stock.symbol} stock={item!.stock} analysis={item!.analysis as any} />
             ))}
           </div>
         </section>
@@ -85,7 +85,7 @@ export default async function Dashboard() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {krStocks.map((item) => (
-              <StockCard key={item!.stock.symbol} data={item as any} />
+              <StockCard key={item!.stock.symbol} stock={item!.stock} analysis={item!.analysis as any} />
             ))}
           </div>
         </section>

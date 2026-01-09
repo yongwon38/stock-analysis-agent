@@ -42,14 +42,15 @@ export default async function StockPage(props: PageProps) {
         console.error("AI Analysis Failed (Page will render without it):", e);
         // Create a placeholder "Empty" analysis so the UI doesn't crash
         analysis = {
-            symbol: stock.symbol,
-            recommendation: 'HOLD', // Default
-            confidence: 0,
-            sentimentScore: 50,
-            summary: "AI Analysis is currently unavailable due to API configuration or rate limits. Please verify your API Keys in Vercel Settings.",
-            keyFactors: ["Analysis Unavailable"],
-            riskFactors: ["Data only"],
-            analyzedAt: new Date().toISOString(),
+            investment_opinion: 'HOLD', // Default
+            confidence_level: 'Low',
+            total_score: 0,
+            score_breakdown: { technical: 0, news: 0, industry: 0, market: 0 },
+            summary: "AI Analysis is currently unavailable. Please check system status.",
+            key_rationale: ["Analysis Unavailable"],
+            risk_factors: ["Data only"],
+            timestamp: new Date().toISOString(),
+            details: {} as any,
             provider: 'System'
         };
     }
@@ -76,13 +77,13 @@ export default async function StockPage(props: PageProps) {
                     <div className="text-right">
                         <div className={clsx(
                             "inline-block px-4 py-2 rounded-lg text-xl font-bold mb-2 border",
-                            analysis.recommendation === 'BUY' ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20' :
-                                analysis.recommendation === 'SELL' ? 'bg-red-500/10 text-red-400 border-red-500/20' :
+                            analysis.investment_opinion === 'BUY' ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20' :
+                                analysis.investment_opinion === 'SELL' ? 'bg-red-500/10 text-red-400 border-red-500/20' :
                                     'bg-yellow-500/10 text-yellow-400 border-yellow-500/20'
                         )}>
-                            {analysis.recommendation}
+                            {analysis.investment_opinion}
                         </div>
-                        <p className="text-slate-400 text-sm">Review Confidence: {analysis.confidence}%</p>
+                        <p className="text-slate-400 text-sm">Confidence: <span className="text-white font-semibold">{analysis.confidence_level}</span></p>
                     </div>
                 </div>
 
@@ -96,21 +97,39 @@ export default async function StockPage(props: PageProps) {
                         </section>
 
                         <section className="bg-slate-900/50 p-6 rounded-xl border border-slate-800">
-                            <h2 className="text-xl font-bold mb-4 text-purple-400">AI Analysis Summary</h2>
-                            <div className="prose prose-invert max-w-none text-slate-300 font-light leading-relaxed whitespace-pre-line">
+                            <div className="flex justify-between items-center mb-4">
+                                <h2 className="text-xl font-bold text-purple-400">Multi-Agent Analysis</h2>
+                                <div className="text-2xl font-bold text-white">{analysis.total_score}<span className="text-sm text-slate-500">/100</span></div>
+                            </div>
+
+                            <div className="prose prose-invert max-w-none text-slate-300 font-light leading-relaxed whitespace-pre-line mb-6">
                                 {analysis.summary}
                             </div>
+
+                            {/* Score Breakdown Bars */}
+                            <div className="grid grid-cols-4 gap-4 mb-6">
+                                {Object.entries(analysis.score_breakdown).map(([key, score]) => (
+                                    <div key={key} className="text-center">
+                                        <div className="text-xs text-slate-500 uppercase mb-1">{key}</div>
+                                        <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
+                                            <div className="h-full bg-blue-500" style={{ width: `${(score as number) * 10}%` }}></div>
+                                        </div>
+                                        <div className="text-xs font-mono mt-1 text-slate-300">{score as number}/10</div>
+                                    </div>
+                                ))}
+                            </div>
+
                             <div className="mt-4 pt-4 border-t border-slate-800 text-right text-xs text-slate-500 font-mono">
-                                Analysis Generated: {analysis.analyzedAt ? new Date(analysis.analyzedAt).toLocaleString() : 'Just now'} • Model: <span className="text-slate-400 font-bold">{analysis.provider === 'Groq' ? 'Llama-3.3 (Groq)' : analysis.provider === 'Gemini' ? 'Gemini 2.0 Flash' : 'System Fallback'}</span>
+                                Analysis Generated: {analysis.timestamp ? new Date(analysis.timestamp).toLocaleString() : 'Just now'} • Provider: <span className="text-slate-400 font-bold">{analysis.provider === 'Groq' ? 'Groq (GPT-OSS-120B)' : analysis.provider === 'Gemini' ? 'Gemini 2.0' : 'System'}</span>
                             </div>
                         </section>
                     </div>
 
                     <div className="space-y-6">
                         <div className="bg-slate-900 p-6 rounded-xl border border-slate-800">
-                            <h3 className="text-lg font-bold mb-4 text-blue-400">Key Factors</h3>
+                            <h3 className="text-lg font-bold mb-4 text-blue-400">Key Rationale</h3>
                             <ul className="space-y-2">
-                                {analysis.keyFactors?.map((factor, i) => (
+                                {analysis.key_rationale?.map((factor: string, i: number) => (
                                     <li key={i} className="flex items-start gap-2 text-sm text-slate-300">
                                         <span className="text-blue-500 mt-1">•</span>
                                         {factor}
@@ -122,7 +141,7 @@ export default async function StockPage(props: PageProps) {
                         <div className="bg-slate-900 p-6 rounded-xl border border-slate-800">
                             <h3 className="text-lg font-bold mb-4 text-orange-400">Risk Factors</h3>
                             <ul className="space-y-2">
-                                {analysis.riskFactors?.map((factor, i) => (
+                                {analysis.risk_factors?.map((factor: string, i: number) => (
                                     <li key={i} className="flex items-start gap-2 text-sm text-slate-300">
                                         <span className="text-orange-500 mt-1">•</span>
                                         {factor}

@@ -1,6 +1,6 @@
 import fs from 'fs/promises';
 import path from 'path';
-import { AnalysisResult } from './gemini';
+import { MultiAgentAnalysis } from '@/lib/ai';
 import { StockData } from './finance';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
@@ -10,7 +10,7 @@ export interface StoredData {
     lastUpdated: string;
     results: {
         stock: StockData;
-        analysis: AnalysisResult;
+        analysis: MultiAgentAnalysis;
     }[];
 }
 

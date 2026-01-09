@@ -16,11 +16,11 @@ export interface StockData {
     news: NewsItem[];
     history: HistoryItem[];
     financials?: any; // Simplified for now
+    sector?: string;
+    industry?: string;
+    exDividendDate?: string;
 }
 
-// Keep local interface or import? Let's keep local to avoid breaking other files, 
-// but we need to make sure the data matches. 
-// Actually, let's just use 'any' mapping or align the interfaces.
 export interface NewsItem {
     uuid: string;
     title: string;
@@ -40,9 +40,16 @@ export interface HistoryItem {
 }
 
 export async function getStockData(symbol: string): Promise<StockData> {
-    // 1. Fetch Quote
-    const quote = await yahooFinance.quote(symbol);
+    // 1. Fetch Quote & Profile in parallel for speed
+    // quoteSummary with assetProfile gives sector/industry
+    const [quote, quoteSummary] = await Promise.all([
+        yahooFinance.quote(symbol),
+        yahooFinance.quoteSummary(symbol, { modules: ['assetProfile', 'summaryDetail'] })
+    ]);
+
     const { regularMarketPrice, currency, exchange } = quote;
+    const profile = quoteSummary.assetProfile;
+    const detail = quoteSummary.summaryDetail;
 
     // Determine Region for news
     const isKR = symbol.endsWith('.KS') || symbol.endsWith('.KQ') || exchange === 'KSE' || exchange === 'KOE';
@@ -72,6 +79,9 @@ export async function getStockData(symbol: string): Promise<StockData> {
         marketCap: quote.marketCap || 0,
         peRatio: quote.trailingPE,
         eps: quote.epsTrailingTwelveMonths,
+        sector: profile?.sector,
+        industry: profile?.industry,
+        exDividendDate: detail?.exDividendDate ? new Date(detail.exDividendDate).toISOString() : undefined,
         news: news.map((n: any) => ({
             uuid: n.uuid,
             title: n.title,
