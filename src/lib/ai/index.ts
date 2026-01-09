@@ -45,12 +45,18 @@ export async function getStockAnalysis(stock: StockData): Promise<MultiAgentAnal
     // Let's try Parallel first, relying on provider retries (or just standard fetch).
 
     try {
-        const [priceResult, newsResult, industryResult, marketResult] = await Promise.all([
-            generateWithFallback(PRICE_AGENT_SYSTEM, userContext),
-            generateWithFallback(NEWS_AGENT_SYSTEM, userContext),
-            generateWithFallback(INDUSTRY_AGENT_SYSTEM, userContext),
-            generateWithFallback(MARKET_AGENT_SYSTEM, userContext)
-        ]);
+        // 2. Sequential Execution (Safer for Rate Limits)
+        console.log(`[Multi-Agent] Agent 1: Price Analysis`);
+        const priceResult = await generateWithFallback(PRICE_AGENT_SYSTEM, userContext);
+
+        console.log(`[Multi-Agent] Agent 2: News Analysis`);
+        const newsResult = await generateWithFallback(NEWS_AGENT_SYSTEM, userContext);
+
+        console.log(`[Multi-Agent] Agent 3: Industry Analysis`);
+        const industryResult = await generateWithFallback(INDUSTRY_AGENT_SYSTEM, userContext);
+
+        console.log(`[Multi-Agent] Agent 4: Market Analysis`);
+        const marketResult = await generateWithFallback(MARKET_AGENT_SYSTEM, userContext);
 
         // 3. Aggregation
         const aggregatorContext = JSON.stringify({
@@ -60,6 +66,7 @@ export async function getStockAnalysis(stock: StockData): Promise<MultiAgentAnal
             market_analysis: marketResult
         });
 
+        console.log(`[Multi-Agent] Aggregating results...`);
         const finalDecision = await generateWithFallback(AGGREGATOR_AGENT_SYSTEM, aggregatorContext);
 
         // 4. Construct Final Object
@@ -72,12 +79,11 @@ export async function getStockAnalysis(stock: StockData): Promise<MultiAgentAnal
                 market_analysis: marketResult
             },
             timestamp: new Date().toISOString(),
-            provider: 'Groq' // We assume primary succeeded if we are here
+            provider: 'Groq'
         };
 
         // 5. Update Cache
         globalCache.set(stock.symbol, finalAnalysis);
-        // Fire and forget file save
         saveAnalysisResults({
             lastUpdated: new Date().toISOString(),
             results: fileCache ? [...fileCache.results.filter((r: any) => r.stock.symbol !== stock.symbol), { stock, analysis: finalAnalysis }] : [{ stock, analysis: finalAnalysis }]
@@ -87,17 +93,17 @@ export async function getStockAnalysis(stock: StockData): Promise<MultiAgentAnal
 
     } catch (e: any) {
         console.error(`[Multi-Agent Failed] ${e.message}`);
-        // Create a fallback "System" failure analysis
+        // Create a fallback "System" failure analysis WITH ERROR DETAILS
         return {
             investment_opinion: "HOLD",
             confidence_level: "Low",
             total_score: 0,
             score_breakdown: { technical: 0, news: 0, industry: 0, market: 0 },
-            key_rationale: ["AI 분석 시스템 오류 발생", "잠시 후 다시 시도해주세요."],
-            risk_factors: ["데이터 처리 실패"],
-            summary: "시스템 오류로 인해 분석을 완료할 수 없습니다.",
+            key_rationale: ["AI 분석 시스템 오류 발생", `Error: ${e.message}`],
+            risk_factors: ["데이터 처리 실패", "API 키 또는 네트워크 확인 필요"],
+            summary: `시스템 오류로 인해 분석을 완료할 수 없습니다. (상세: ${e.message})`,
             timestamp: new Date().toISOString(),
-            details: {} as any, // Empty details
+            details: {} as any,
             provider: 'System'
         };
     }
