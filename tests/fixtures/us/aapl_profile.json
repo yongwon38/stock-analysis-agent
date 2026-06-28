@@ -1,0 +1,19 @@
+{
+  "ticker": "AAPL",
+  "market": "US",
+  "name": "Apple Inc.",
+  "name_en": null,
+  "sector": "Technology",
+  "industry": "Consumer Electronics",
+  "market_cap": 3000000000000.0,
+  "shares_outstanding": 15500000000.0,
+  "description": null,
+  "exchange": "NASDAQ",
+  "currency": "USD",
+  "dart_corp_code": null,
+  "provenance": {
+    "source": "yfinance",
+    "as_of_date": "2025-12-31",
+    "fetched_at": "2025-12-31T00:00:00Z"
+  }
+}

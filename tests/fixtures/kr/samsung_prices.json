@@ -1,0 +1,4034 @@
+[
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-01",
+    "open": 70000.0,
+    "high": 70002.0,
+    "low": 69998.0,
+    "close": 70000.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-02",
+    "open": 70000.1,
+    "high": 70002.1,
+    "low": 69998.1,
+    "close": 70000.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-03",
+    "open": 70000.2,
+    "high": 70002.2,
+    "low": 69998.2,
+    "close": 70000.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-04",
+    "open": 70000.3,
+    "high": 70002.3,
+    "low": 69998.3,
+    "close": 70000.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-05",
+    "open": 70000.4,
+    "high": 70002.4,
+    "low": 69998.4,
+    "close": 70000.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-06",
+    "open": 70000.5,
+    "high": 70002.5,
+    "low": 69998.5,
+    "close": 70000.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-07",
+    "open": 70000.6,
+    "high": 70002.6,
+    "low": 69998.6,
+    "close": 70000.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-08",
+    "open": 70000.7,
+    "high": 70002.7,
+    "low": 69998.7,
+    "close": 70000.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-09",
+    "open": 70000.8,
+    "high": 70002.8,
+    "low": 69998.8,
+    "close": 70000.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-10",
+    "open": 70000.9,
+    "high": 70002.9,
+    "low": 69998.9,
+    "close": 70000.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-11",
+    "open": 70001.0,
+    "high": 70003.0,
+    "low": 69999.0,
+    "close": 70001.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-12",
+    "open": 70001.1,
+    "high": 70003.1,
+    "low": 69999.1,
+    "close": 70001.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-13",
+    "open": 70001.2,
+    "high": 70003.2,
+    "low": 69999.2,
+    "close": 70001.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-14",
+    "open": 70001.3,
+    "high": 70003.3,
+    "low": 69999.3,
+    "close": 70001.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-15",
+    "open": 70001.4,
+    "high": 70003.4,
+    "low": 69999.4,
+    "close": 70001.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-16",
+    "open": 70001.5,
+    "high": 70003.5,
+    "low": 69999.5,
+    "close": 70001.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-17",
+    "open": 70001.6,
+    "high": 70003.6,
+    "low": 69999.6,
+    "close": 70001.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-18",
+    "open": 70001.7,
+    "high": 70003.7,
+    "low": 69999.7,
+    "close": 70001.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-19",
+    "open": 70001.8,
+    "high": 70003.8,
+    "low": 69999.8,
+    "close": 70001.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-20",
+    "open": 70001.9,
+    "high": 70003.9,
+    "low": 69999.9,
+    "close": 70001.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-21",
+    "open": 70002.0,
+    "high": 70004.0,
+    "low": 70000.0,
+    "close": 70002.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-22",
+    "open": 70002.1,
+    "high": 70004.1,
+    "low": 70000.1,
+    "close": 70002.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-23",
+    "open": 70002.2,
+    "high": 70004.2,
+    "low": 70000.2,
+    "close": 70002.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-24",
+    "open": 70002.3,
+    "high": 70004.3,
+    "low": 70000.3,
+    "close": 70002.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-25",
+    "open": 70002.4,
+    "high": 70004.4,
+    "low": 70000.4,
+    "close": 70002.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-26",
+    "open": 70002.5,
+    "high": 70004.5,
+    "low": 70000.5,
+    "close": 70002.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-27",
+    "open": 70002.6,
+    "high": 70004.6,
+    "low": 70000.6,
+    "close": 70002.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-28",
+    "open": 70002.7,
+    "high": 70004.7,
+    "low": 70000.7,
+    "close": 70002.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-29",
+    "open": 70002.8,
+    "high": 70004.8,
+    "low": 70000.8,
+    "close": 70002.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-30",
+    "open": 70002.9,
+    "high": 70004.9,
+    "low": 70000.9,
+    "close": 70002.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-01-31",
+    "open": 70003.0,
+    "high": 70005.0,
+    "low": 70001.0,
+    "close": 70003.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-01",
+    "open": 70003.1,
+    "high": 70005.1,
+    "low": 70001.1,
+    "close": 70003.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-02",
+    "open": 70003.2,
+    "high": 70005.2,
+    "low": 70001.2,
+    "close": 70003.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-03",
+    "open": 70003.3,
+    "high": 70005.3,
+    "low": 70001.3,
+    "close": 70003.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-04",
+    "open": 70003.4,
+    "high": 70005.4,
+    "low": 70001.4,
+    "close": 70003.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-05",
+    "open": 70003.5,
+    "high": 70005.5,
+    "low": 70001.5,
+    "close": 70003.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-06",
+    "open": 70003.6,
+    "high": 70005.6,
+    "low": 70001.6,
+    "close": 70003.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-07",
+    "open": 70003.7,
+    "high": 70005.7,
+    "low": 70001.7,
+    "close": 70003.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-08",
+    "open": 70003.8,
+    "high": 70005.8,
+    "low": 70001.8,
+    "close": 70003.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-09",
+    "open": 70003.9,
+    "high": 70005.9,
+    "low": 70001.9,
+    "close": 70003.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-10",
+    "open": 70004.0,
+    "high": 70006.0,
+    "low": 70002.0,
+    "close": 70004.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-11",
+    "open": 70004.1,
+    "high": 70006.1,
+    "low": 70002.1,
+    "close": 70004.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-12",
+    "open": 70004.2,
+    "high": 70006.2,
+    "low": 70002.2,
+    "close": 70004.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-13",
+    "open": 70004.3,
+    "high": 70006.3,
+    "low": 70002.3,
+    "close": 70004.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-14",
+    "open": 70004.4,
+    "high": 70006.4,
+    "low": 70002.4,
+    "close": 70004.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-15",
+    "open": 70004.5,
+    "high": 70006.5,
+    "low": 70002.5,
+    "close": 70004.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-16",
+    "open": 70004.6,
+    "high": 70006.6,
+    "low": 70002.6,
+    "close": 70004.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-17",
+    "open": 70004.7,
+    "high": 70006.7,
+    "low": 70002.7,
+    "close": 70004.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-18",
+    "open": 70004.8,
+    "high": 70006.8,
+    "low": 70002.8,
+    "close": 70004.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-19",
+    "open": 70004.9,
+    "high": 70006.9,
+    "low": 70002.9,
+    "close": 70004.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-20",
+    "open": 70005.0,
+    "high": 70007.0,
+    "low": 70003.0,
+    "close": 70005.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-21",
+    "open": 70005.1,
+    "high": 70007.1,
+    "low": 70003.1,
+    "close": 70005.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-22",
+    "open": 70005.2,
+    "high": 70007.2,
+    "low": 70003.2,
+    "close": 70005.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-23",
+    "open": 70005.3,
+    "high": 70007.3,
+    "low": 70003.3,
+    "close": 70005.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-24",
+    "open": 70005.4,
+    "high": 70007.4,
+    "low": 70003.4,
+    "close": 70005.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-25",
+    "open": 70005.5,
+    "high": 70007.5,
+    "low": 70003.5,
+    "close": 70005.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-26",
+    "open": 70005.6,
+    "high": 70007.6,
+    "low": 70003.6,
+    "close": 70005.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-27",
+    "open": 70005.7,
+    "high": 70007.7,
+    "low": 70003.7,
+    "close": 70005.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-02-28",
+    "open": 70005.8,
+    "high": 70007.8,
+    "low": 70003.8,
+    "close": 70005.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-01",
+    "open": 70005.9,
+    "high": 70007.9,
+    "low": 70003.9,
+    "close": 70005.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-02",
+    "open": 70006.0,
+    "high": 70008.0,
+    "low": 70004.0,
+    "close": 70006.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-03",
+    "open": 70006.1,
+    "high": 70008.1,
+    "low": 70004.1,
+    "close": 70006.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-04",
+    "open": 70006.2,
+    "high": 70008.2,
+    "low": 70004.2,
+    "close": 70006.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-05",
+    "open": 70006.3,
+    "high": 70008.3,
+    "low": 70004.3,
+    "close": 70006.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-06",
+    "open": 70006.4,
+    "high": 70008.4,
+    "low": 70004.4,
+    "close": 70006.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-07",
+    "open": 70006.5,
+    "high": 70008.5,
+    "low": 70004.5,
+    "close": 70006.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-08",
+    "open": 70006.6,
+    "high": 70008.6,
+    "low": 70004.6,
+    "close": 70006.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-09",
+    "open": 70006.7,
+    "high": 70008.7,
+    "low": 70004.7,
+    "close": 70006.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-10",
+    "open": 70006.8,
+    "high": 70008.8,
+    "low": 70004.8,
+    "close": 70006.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-11",
+    "open": 70006.9,
+    "high": 70008.9,
+    "low": 70004.9,
+    "close": 70006.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-12",
+    "open": 70007.0,
+    "high": 70009.0,
+    "low": 70005.0,
+    "close": 70007.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-13",
+    "open": 70007.1,
+    "high": 70009.1,
+    "low": 70005.1,
+    "close": 70007.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-14",
+    "open": 70007.2,
+    "high": 70009.2,
+    "low": 70005.2,
+    "close": 70007.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-15",
+    "open": 70007.3,
+    "high": 70009.3,
+    "low": 70005.3,
+    "close": 70007.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-16",
+    "open": 70007.4,
+    "high": 70009.4,
+    "low": 70005.4,
+    "close": 70007.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-17",
+    "open": 70007.5,
+    "high": 70009.5,
+    "low": 70005.5,
+    "close": 70007.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-18",
+    "open": 70007.6,
+    "high": 70009.6,
+    "low": 70005.6,
+    "close": 70007.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-19",
+    "open": 70007.7,
+    "high": 70009.7,
+    "low": 70005.7,
+    "close": 70007.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-20",
+    "open": 70007.8,
+    "high": 70009.8,
+    "low": 70005.8,
+    "close": 70007.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-21",
+    "open": 70007.9,
+    "high": 70009.9,
+    "low": 70005.9,
+    "close": 70007.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-22",
+    "open": 70008.0,
+    "high": 70010.0,
+    "low": 70006.0,
+    "close": 70008.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-23",
+    "open": 70008.1,
+    "high": 70010.1,
+    "low": 70006.1,
+    "close": 70008.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-24",
+    "open": 70008.2,
+    "high": 70010.2,
+    "low": 70006.2,
+    "close": 70008.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-25",
+    "open": 70008.3,
+    "high": 70010.3,
+    "low": 70006.3,
+    "close": 70008.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-26",
+    "open": 70008.4,
+    "high": 70010.4,
+    "low": 70006.4,
+    "close": 70008.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-27",
+    "open": 70008.5,
+    "high": 70010.5,
+    "low": 70006.5,
+    "close": 70008.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-28",
+    "open": 70008.6,
+    "high": 70010.6,
+    "low": 70006.6,
+    "close": 70008.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-29",
+    "open": 70008.7,
+    "high": 70010.7,
+    "low": 70006.7,
+    "close": 70008.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-30",
+    "open": 70008.8,
+    "high": 70010.8,
+    "low": 70006.8,
+    "close": 70008.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-03-31",
+    "open": 70008.9,
+    "high": 70010.9,
+    "low": 70006.9,
+    "close": 70008.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-01",
+    "open": 70009.0,
+    "high": 70011.0,
+    "low": 70007.0,
+    "close": 70009.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-02",
+    "open": 70009.1,
+    "high": 70011.1,
+    "low": 70007.1,
+    "close": 70009.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-03",
+    "open": 70009.2,
+    "high": 70011.2,
+    "low": 70007.2,
+    "close": 70009.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-04",
+    "open": 70009.3,
+    "high": 70011.3,
+    "low": 70007.3,
+    "close": 70009.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-05",
+    "open": 70009.4,
+    "high": 70011.4,
+    "low": 70007.4,
+    "close": 70009.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-06",
+    "open": 70009.5,
+    "high": 70011.5,
+    "low": 70007.5,
+    "close": 70009.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-07",
+    "open": 70009.6,
+    "high": 70011.6,
+    "low": 70007.6,
+    "close": 70009.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-08",
+    "open": 70009.7,
+    "high": 70011.7,
+    "low": 70007.7,
+    "close": 70009.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-09",
+    "open": 70009.8,
+    "high": 70011.8,
+    "low": 70007.8,
+    "close": 70009.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-10",
+    "open": 70009.9,
+    "high": 70011.9,
+    "low": 70007.9,
+    "close": 70009.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-11",
+    "open": 70010.0,
+    "high": 70012.0,
+    "low": 70008.0,
+    "close": 70010.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-12",
+    "open": 70010.1,
+    "high": 70012.1,
+    "low": 70008.1,
+    "close": 70010.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-13",
+    "open": 70010.2,
+    "high": 70012.2,
+    "low": 70008.2,
+    "close": 70010.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-14",
+    "open": 70010.3,
+    "high": 70012.3,
+    "low": 70008.3,
+    "close": 70010.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-15",
+    "open": 70010.4,
+    "high": 70012.4,
+    "low": 70008.4,
+    "close": 70010.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-16",
+    "open": 70010.5,
+    "high": 70012.5,
+    "low": 70008.5,
+    "close": 70010.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-17",
+    "open": 70010.6,
+    "high": 70012.6,
+    "low": 70008.6,
+    "close": 70010.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-18",
+    "open": 70010.7,
+    "high": 70012.7,
+    "low": 70008.7,
+    "close": 70010.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-19",
+    "open": 70010.8,
+    "high": 70012.8,
+    "low": 70008.8,
+    "close": 70010.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-20",
+    "open": 70010.9,
+    "high": 70012.9,
+    "low": 70008.9,
+    "close": 70010.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-21",
+    "open": 70011.0,
+    "high": 70013.0,
+    "low": 70009.0,
+    "close": 70011.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-22",
+    "open": 70011.1,
+    "high": 70013.1,
+    "low": 70009.1,
+    "close": 70011.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-23",
+    "open": 70011.2,
+    "high": 70013.2,
+    "low": 70009.2,
+    "close": 70011.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-24",
+    "open": 70011.3,
+    "high": 70013.3,
+    "low": 70009.3,
+    "close": 70011.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-25",
+    "open": 70011.4,
+    "high": 70013.4,
+    "low": 70009.4,
+    "close": 70011.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-26",
+    "open": 70011.5,
+    "high": 70013.5,
+    "low": 70009.5,
+    "close": 70011.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-27",
+    "open": 70011.6,
+    "high": 70013.6,
+    "low": 70009.6,
+    "close": 70011.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-28",
+    "open": 70011.7,
+    "high": 70013.7,
+    "low": 70009.7,
+    "close": 70011.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-29",
+    "open": 70011.8,
+    "high": 70013.8,
+    "low": 70009.8,
+    "close": 70011.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-04-30",
+    "open": 70011.9,
+    "high": 70013.9,
+    "low": 70009.9,
+    "close": 70011.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-01",
+    "open": 70012.0,
+    "high": 70014.0,
+    "low": 70010.0,
+    "close": 70012.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-02",
+    "open": 70012.1,
+    "high": 70014.1,
+    "low": 70010.1,
+    "close": 70012.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-03",
+    "open": 70012.2,
+    "high": 70014.2,
+    "low": 70010.2,
+    "close": 70012.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-04",
+    "open": 70012.3,
+    "high": 70014.3,
+    "low": 70010.3,
+    "close": 70012.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-05",
+    "open": 70012.4,
+    "high": 70014.4,
+    "low": 70010.4,
+    "close": 70012.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-06",
+    "open": 70012.5,
+    "high": 70014.5,
+    "low": 70010.5,
+    "close": 70012.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-07",
+    "open": 70012.6,
+    "high": 70014.6,
+    "low": 70010.6,
+    "close": 70012.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-08",
+    "open": 70012.7,
+    "high": 70014.7,
+    "low": 70010.7,
+    "close": 70012.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-09",
+    "open": 70012.8,
+    "high": 70014.8,
+    "low": 70010.8,
+    "close": 70012.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-10",
+    "open": 70012.9,
+    "high": 70014.9,
+    "low": 70010.9,
+    "close": 70012.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-11",
+    "open": 70013.0,
+    "high": 70015.0,
+    "low": 70011.0,
+    "close": 70013.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-12",
+    "open": 70013.1,
+    "high": 70015.1,
+    "low": 70011.1,
+    "close": 70013.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-13",
+    "open": 70013.2,
+    "high": 70015.2,
+    "low": 70011.2,
+    "close": 70013.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-14",
+    "open": 70013.3,
+    "high": 70015.3,
+    "low": 70011.3,
+    "close": 70013.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-15",
+    "open": 70013.4,
+    "high": 70015.4,
+    "low": 70011.4,
+    "close": 70013.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-16",
+    "open": 70013.5,
+    "high": 70015.5,
+    "low": 70011.5,
+    "close": 70013.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-17",
+    "open": 70013.6,
+    "high": 70015.6,
+    "low": 70011.6,
+    "close": 70013.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-18",
+    "open": 70013.7,
+    "high": 70015.7,
+    "low": 70011.7,
+    "close": 70013.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-19",
+    "open": 70013.8,
+    "high": 70015.8,
+    "low": 70011.8,
+    "close": 70013.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-20",
+    "open": 70013.9,
+    "high": 70015.9,
+    "low": 70011.9,
+    "close": 70013.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-21",
+    "open": 70014.0,
+    "high": 70016.0,
+    "low": 70012.0,
+    "close": 70014.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-22",
+    "open": 70014.1,
+    "high": 70016.1,
+    "low": 70012.1,
+    "close": 70014.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-23",
+    "open": 70014.2,
+    "high": 70016.2,
+    "low": 70012.2,
+    "close": 70014.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-24",
+    "open": 70014.3,
+    "high": 70016.3,
+    "low": 70012.3,
+    "close": 70014.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-25",
+    "open": 70014.4,
+    "high": 70016.4,
+    "low": 70012.4,
+    "close": 70014.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-26",
+    "open": 70014.5,
+    "high": 70016.5,
+    "low": 70012.5,
+    "close": 70014.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-27",
+    "open": 70014.6,
+    "high": 70016.6,
+    "low": 70012.6,
+    "close": 70014.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-28",
+    "open": 70014.7,
+    "high": 70016.7,
+    "low": 70012.7,
+    "close": 70014.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-29",
+    "open": 70014.8,
+    "high": 70016.8,
+    "low": 70012.8,
+    "close": 70014.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-30",
+    "open": 70014.9,
+    "high": 70016.9,
+    "low": 70012.9,
+    "close": 70014.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-05-31",
+    "open": 70015.0,
+    "high": 70017.0,
+    "low": 70013.0,
+    "close": 70015.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-01",
+    "open": 70015.1,
+    "high": 70017.1,
+    "low": 70013.1,
+    "close": 70015.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-02",
+    "open": 70015.2,
+    "high": 70017.2,
+    "low": 70013.2,
+    "close": 70015.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-03",
+    "open": 70015.3,
+    "high": 70017.3,
+    "low": 70013.3,
+    "close": 70015.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-04",
+    "open": 70015.4,
+    "high": 70017.4,
+    "low": 70013.4,
+    "close": 70015.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-05",
+    "open": 70015.5,
+    "high": 70017.5,
+    "low": 70013.5,
+    "close": 70015.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-06",
+    "open": 70015.6,
+    "high": 70017.6,
+    "low": 70013.6,
+    "close": 70015.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-07",
+    "open": 70015.7,
+    "high": 70017.7,
+    "low": 70013.7,
+    "close": 70015.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-08",
+    "open": 70015.8,
+    "high": 70017.8,
+    "low": 70013.8,
+    "close": 70015.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-09",
+    "open": 70015.9,
+    "high": 70017.9,
+    "low": 70013.9,
+    "close": 70015.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-10",
+    "open": 70016.0,
+    "high": 70018.0,
+    "low": 70014.0,
+    "close": 70016.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-11",
+    "open": 70016.1,
+    "high": 70018.1,
+    "low": 70014.1,
+    "close": 70016.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-12",
+    "open": 70016.2,
+    "high": 70018.2,
+    "low": 70014.2,
+    "close": 70016.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-13",
+    "open": 70016.3,
+    "high": 70018.3,
+    "low": 70014.3,
+    "close": 70016.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-14",
+    "open": 70016.4,
+    "high": 70018.4,
+    "low": 70014.4,
+    "close": 70016.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-15",
+    "open": 70016.5,
+    "high": 70018.5,
+    "low": 70014.5,
+    "close": 70016.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-16",
+    "open": 70016.6,
+    "high": 70018.6,
+    "low": 70014.6,
+    "close": 70016.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-17",
+    "open": 70016.7,
+    "high": 70018.7,
+    "low": 70014.7,
+    "close": 70016.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-18",
+    "open": 70016.8,
+    "high": 70018.8,
+    "low": 70014.8,
+    "close": 70016.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-19",
+    "open": 70016.9,
+    "high": 70018.9,
+    "low": 70014.9,
+    "close": 70016.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-20",
+    "open": 70017.0,
+    "high": 70019.0,
+    "low": 70015.0,
+    "close": 70017.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-21",
+    "open": 70017.1,
+    "high": 70019.1,
+    "low": 70015.1,
+    "close": 70017.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-22",
+    "open": 70017.2,
+    "high": 70019.2,
+    "low": 70015.2,
+    "close": 70017.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-23",
+    "open": 70017.3,
+    "high": 70019.3,
+    "low": 70015.3,
+    "close": 70017.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-24",
+    "open": 70017.4,
+    "high": 70019.4,
+    "low": 70015.4,
+    "close": 70017.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-25",
+    "open": 70017.5,
+    "high": 70019.5,
+    "low": 70015.5,
+    "close": 70017.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-26",
+    "open": 70017.6,
+    "high": 70019.6,
+    "low": 70015.6,
+    "close": 70017.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-27",
+    "open": 70017.7,
+    "high": 70019.7,
+    "low": 70015.7,
+    "close": 70017.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-28",
+    "open": 70017.8,
+    "high": 70019.8,
+    "low": 70015.8,
+    "close": 70017.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-29",
+    "open": 70017.9,
+    "high": 70019.9,
+    "low": 70015.9,
+    "close": 70017.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-06-30",
+    "open": 70018.0,
+    "high": 70020.0,
+    "low": 70016.0,
+    "close": 70018.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-01",
+    "open": 70018.1,
+    "high": 70020.1,
+    "low": 70016.1,
+    "close": 70018.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-02",
+    "open": 70018.2,
+    "high": 70020.2,
+    "low": 70016.2,
+    "close": 70018.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-03",
+    "open": 70018.3,
+    "high": 70020.3,
+    "low": 70016.3,
+    "close": 70018.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-04",
+    "open": 70018.4,
+    "high": 70020.4,
+    "low": 70016.4,
+    "close": 70018.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-05",
+    "open": 70018.5,
+    "high": 70020.5,
+    "low": 70016.5,
+    "close": 70018.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-06",
+    "open": 70018.6,
+    "high": 70020.6,
+    "low": 70016.6,
+    "close": 70018.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-07",
+    "open": 70018.7,
+    "high": 70020.7,
+    "low": 70016.7,
+    "close": 70018.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-08",
+    "open": 70018.8,
+    "high": 70020.8,
+    "low": 70016.8,
+    "close": 70018.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-09",
+    "open": 70018.9,
+    "high": 70020.9,
+    "low": 70016.9,
+    "close": 70018.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-10",
+    "open": 70019.0,
+    "high": 70021.0,
+    "low": 70017.0,
+    "close": 70019.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-11",
+    "open": 70019.1,
+    "high": 70021.1,
+    "low": 70017.1,
+    "close": 70019.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-12",
+    "open": 70019.2,
+    "high": 70021.2,
+    "low": 70017.2,
+    "close": 70019.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-13",
+    "open": 70019.3,
+    "high": 70021.3,
+    "low": 70017.3,
+    "close": 70019.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-14",
+    "open": 70019.4,
+    "high": 70021.4,
+    "low": 70017.4,
+    "close": 70019.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-15",
+    "open": 70019.5,
+    "high": 70021.5,
+    "low": 70017.5,
+    "close": 70019.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-16",
+    "open": 70019.6,
+    "high": 70021.6,
+    "low": 70017.6,
+    "close": 70019.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-17",
+    "open": 70019.7,
+    "high": 70021.7,
+    "low": 70017.7,
+    "close": 70019.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-18",
+    "open": 70019.8,
+    "high": 70021.8,
+    "low": 70017.8,
+    "close": 70019.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-19",
+    "open": 70019.9,
+    "high": 70021.9,
+    "low": 70017.9,
+    "close": 70019.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-20",
+    "open": 70020.0,
+    "high": 70022.0,
+    "low": 70018.0,
+    "close": 70020.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-21",
+    "open": 70020.1,
+    "high": 70022.1,
+    "low": 70018.1,
+    "close": 70020.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-22",
+    "open": 70020.2,
+    "high": 70022.2,
+    "low": 70018.2,
+    "close": 70020.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-23",
+    "open": 70020.3,
+    "high": 70022.3,
+    "low": 70018.3,
+    "close": 70020.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-24",
+    "open": 70020.4,
+    "high": 70022.4,
+    "low": 70018.4,
+    "close": 70020.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-25",
+    "open": 70020.5,
+    "high": 70022.5,
+    "low": 70018.5,
+    "close": 70020.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-26",
+    "open": 70020.6,
+    "high": 70022.6,
+    "low": 70018.6,
+    "close": 70020.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-27",
+    "open": 70020.7,
+    "high": 70022.7,
+    "low": 70018.7,
+    "close": 70020.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-28",
+    "open": 70020.8,
+    "high": 70022.8,
+    "low": 70018.8,
+    "close": 70020.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-29",
+    "open": 70020.9,
+    "high": 70022.9,
+    "low": 70018.9,
+    "close": 70020.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-30",
+    "open": 70021.0,
+    "high": 70023.0,
+    "low": 70019.0,
+    "close": 70021.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-07-31",
+    "open": 70021.1,
+    "high": 70023.1,
+    "low": 70019.1,
+    "close": 70021.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-01",
+    "open": 70021.2,
+    "high": 70023.2,
+    "low": 70019.2,
+    "close": 70021.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-02",
+    "open": 70021.3,
+    "high": 70023.3,
+    "low": 70019.3,
+    "close": 70021.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-03",
+    "open": 70021.4,
+    "high": 70023.4,
+    "low": 70019.4,
+    "close": 70021.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-04",
+    "open": 70021.5,
+    "high": 70023.5,
+    "low": 70019.5,
+    "close": 70021.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-05",
+    "open": 70021.6,
+    "high": 70023.6,
+    "low": 70019.6,
+    "close": 70021.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-06",
+    "open": 70021.7,
+    "high": 70023.7,
+    "low": 70019.7,
+    "close": 70021.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-07",
+    "open": 70021.8,
+    "high": 70023.8,
+    "low": 70019.8,
+    "close": 70021.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-08",
+    "open": 70021.9,
+    "high": 70023.9,
+    "low": 70019.9,
+    "close": 70021.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-09",
+    "open": 70022.0,
+    "high": 70024.0,
+    "low": 70020.0,
+    "close": 70022.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-10",
+    "open": 70022.1,
+    "high": 70024.1,
+    "low": 70020.1,
+    "close": 70022.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-11",
+    "open": 70022.2,
+    "high": 70024.2,
+    "low": 70020.2,
+    "close": 70022.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-12",
+    "open": 70022.3,
+    "high": 70024.3,
+    "low": 70020.3,
+    "close": 70022.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-13",
+    "open": 70022.4,
+    "high": 70024.4,
+    "low": 70020.4,
+    "close": 70022.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-14",
+    "open": 70022.5,
+    "high": 70024.5,
+    "low": 70020.5,
+    "close": 70022.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-15",
+    "open": 70022.6,
+    "high": 70024.6,
+    "low": 70020.6,
+    "close": 70022.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-16",
+    "open": 70022.7,
+    "high": 70024.7,
+    "low": 70020.7,
+    "close": 70022.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-17",
+    "open": 70022.8,
+    "high": 70024.8,
+    "low": 70020.8,
+    "close": 70022.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-18",
+    "open": 70022.9,
+    "high": 70024.9,
+    "low": 70020.9,
+    "close": 70022.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-19",
+    "open": 70023.0,
+    "high": 70025.0,
+    "low": 70021.0,
+    "close": 70023.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-20",
+    "open": 70023.1,
+    "high": 70025.1,
+    "low": 70021.1,
+    "close": 70023.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-21",
+    "open": 70023.2,
+    "high": 70025.2,
+    "low": 70021.2,
+    "close": 70023.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-22",
+    "open": 70023.3,
+    "high": 70025.3,
+    "low": 70021.3,
+    "close": 70023.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-23",
+    "open": 70023.4,
+    "high": 70025.4,
+    "low": 70021.4,
+    "close": 70023.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-24",
+    "open": 70023.5,
+    "high": 70025.5,
+    "low": 70021.5,
+    "close": 70023.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-25",
+    "open": 70023.6,
+    "high": 70025.6,
+    "low": 70021.6,
+    "close": 70023.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-26",
+    "open": 70023.7,
+    "high": 70025.7,
+    "low": 70021.7,
+    "close": 70023.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-27",
+    "open": 70023.8,
+    "high": 70025.8,
+    "low": 70021.8,
+    "close": 70023.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-28",
+    "open": 70023.9,
+    "high": 70025.9,
+    "low": 70021.9,
+    "close": 70023.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-29",
+    "open": 70024.0,
+    "high": 70026.0,
+    "low": 70022.0,
+    "close": 70024.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-30",
+    "open": 70024.1,
+    "high": 70026.1,
+    "low": 70022.1,
+    "close": 70024.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-08-31",
+    "open": 70024.2,
+    "high": 70026.2,
+    "low": 70022.2,
+    "close": 70024.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-09-01",
+    "open": 70024.3,
+    "high": 70026.3,
+    "low": 70022.3,
+    "close": 70024.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-09-02",
+    "open": 70024.4,
+    "high": 70026.4,
+    "low": 70022.4,
+    "close": 70024.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-09-03",
+    "open": 70024.5,
+    "high": 70026.5,
+    "low": 70022.5,
+    "close": 70024.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-09-04",
+    "open": 70024.6,
+    "high": 70026.6,
+    "low": 70022.6,
+    "close": 70024.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-09-05",
+    "open": 70024.7,
+    "high": 70026.7,
+    "low": 70022.7,
+    "close": 70024.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-09-06",
+    "open": 70024.8,
+    "high": 70026.8,
+    "low": 70022.8,
+    "close": 70024.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-09-07",
+    "open": 70024.9,
+    "high": 70026.9,
+    "low": 70022.9,
+    "close": 70024.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-09-08",
+    "open": 70025.0,
+    "high": 70027.0,
+    "low": 70023.0,
+    "close": 70025.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "market": "KR",
+    "date": "2025-09-09",
+    "open": 70025.1,
+    "high": 70027.1,
+    "low": 70023.1,
+    "close": 70025.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "pykrx",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  }
+]

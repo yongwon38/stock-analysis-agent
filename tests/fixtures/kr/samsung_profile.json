@@ -1,0 +1,19 @@
+{
+  "ticker": "005930",
+  "market": "KR",
+  "name": "삼성전자",
+  "name_en": "Samsung Electronics",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 400000000000000.0,
+  "shares_outstanding": 5969782550.0,
+  "description": null,
+  "exchange": "KRX",
+  "currency": "KRW",
+  "dart_corp_code": "00126380",
+  "provenance": {
+    "source": "dart",
+    "as_of_date": "2025-12-31",
+    "fetched_at": "2025-12-31T00:00:00Z"
+  }
+}

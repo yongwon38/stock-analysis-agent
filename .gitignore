@@ -1,0 +1,40 @@
+# Environment
+.env
+*.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Data (gitignored — fetched at runtime)
+data/raw/
+data/clean/
+data/features/
+data/reports/
+
+# Local databases / logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Test / coverage
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Type checking
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,27 @@
+# Stock Analysis Report: {{ report.ticker }} | {{ report.company_name }}
+
+**Generated:** {{ report.generated_at.strftime('%Y-%m-%d %H:%M UTC') }}
+**Market:** {{ report.market }}
+**Model:** {{ report.model_id }}
+
+{% if report.warnings %}
+> **Warnings:** {{ report.warnings | join(' | ') }}
+{% endif %}
+
+---
+
+{% for section in report.sections %}
+## {{ section.title }}
+
+{{ section.content }}
+
+{% endfor %}
+
+---
+
+## Data Provenance
+
+| Source | As-of Date | Fetched At (UTC) |
+|--------|-----------|-----------------|
+{% for p in report.data_provenance_summary %}| {{ p.source }} | {{ p.as_of_date }} | {{ p.fetched_at.strftime('%Y-%m-%d %H:%M') }} |
+{% endfor %}

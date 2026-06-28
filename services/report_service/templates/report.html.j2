@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ report.ticker }} — Stock Analysis Report</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 960px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; }
+  h1 { border-bottom: 2px solid #333; }
+  h2 { border-bottom: 1px solid #ccc; margin-top: 2rem; }
+  table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
+  th, td { border: 1px solid #ccc; padding: 0.4rem 0.8rem; text-align: left; }
+  th { background: #f5f5f5; }
+  .warning { background: #fff3cd; border: 1px solid #ffc107; padding: 0.5rem 1rem; border-radius: 4px; }
+  .meta { color: #666; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<h1>{{ report.ticker }} | {{ report.company_name }}</h1>
+<p class="meta">
+  Generated: {{ report.generated_at.strftime('%Y-%m-%d %H:%M UTC') }} &nbsp;|&nbsp;
+  Market: {{ report.market }} &nbsp;|&nbsp;
+  Model: {{ report.model_id }}
+</p>
+
+{% if report.warnings %}
+<div class="warning"><strong>Warnings:</strong> {{ report.warnings | join(' | ') }}</div>
+{% endif %}
+
+{% for section in report.sections %}
+<h2>{{ section.title }}</h2>
+<div>{{ section.content | replace('\n', '<br>') }}</div>
+{% endfor %}
+
+<h2>Data Provenance</h2>
+<table>
+  <thead><tr><th>Source</th><th>As-of Date</th><th>Fetched At (UTC)</th></tr></thead>
+  <tbody>
+  {% for p in report.data_provenance_summary %}
+  <tr><td>{{ p.source }}</td><td>{{ p.as_of_date }}</td><td>{{ p.fetched_at.strftime('%Y-%m-%d %H:%M') }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+</body>
+</html>

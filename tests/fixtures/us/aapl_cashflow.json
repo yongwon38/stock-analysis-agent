@@ -1,0 +1,97 @@
+[
+  {
+    "ticker": "AAPL",
+    "fiscal_year": 2020,
+    "fiscal_quarter": null,
+    "period_type": "annual",
+    "period_end_date": "2020-12-31",
+    "operating_cash_flow": 216000.0,
+    "capex": -64800.0,
+    "free_cash_flow": 151200.0,
+    "investing_cash_flow": -75600.0,
+    "financing_cash_flow": -43200.0,
+    "dividends_paid": -32400.0,
+    "stock_repurchases": null,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2020-12-31",
+      "fetched_at": "2020-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": null,
+    "period_type": "annual",
+    "period_end_date": "2021-12-31",
+    "operating_cash_flow": 233280.00000000003,
+    "capex": -69984.0,
+    "free_cash_flow": 163296.00000000003,
+    "investing_cash_flow": -81648.0,
+    "financing_cash_flow": -46656.00000000001,
+    "dividends_paid": -34992.0,
+    "stock_repurchases": null,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2021-12-31",
+      "fetched_at": "2021-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "fiscal_year": 2022,
+    "fiscal_quarter": null,
+    "period_type": "annual",
+    "period_end_date": "2022-12-31",
+    "operating_cash_flow": 251942.40000000002,
+    "capex": -75582.72,
+    "free_cash_flow": 176359.68000000002,
+    "investing_cash_flow": -88179.84,
+    "financing_cash_flow": -50388.48000000001,
+    "dividends_paid": -37791.36,
+    "stock_repurchases": null,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2022-12-31",
+      "fetched_at": "2022-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "fiscal_year": 2023,
+    "fiscal_quarter": null,
+    "period_type": "annual",
+    "period_end_date": "2023-12-31",
+    "operating_cash_flow": 272097.7920000001,
+    "capex": -81629.33760000001,
+    "free_cash_flow": 190468.45440000005,
+    "investing_cash_flow": -95234.22720000002,
+    "financing_cash_flow": -54419.558400000016,
+    "dividends_paid": -40814.66880000001,
+    "stock_repurchases": null,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2023-12-31",
+      "fetched_at": "2023-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "fiscal_year": 2024,
+    "fiscal_quarter": null,
+    "period_type": "annual",
+    "period_end_date": "2024-12-31",
+    "operating_cash_flow": 293865.6153600001,
+    "capex": -88159.68460800003,
+    "free_cash_flow": 205705.93075200007,
+    "investing_cash_flow": -102852.96537600004,
+    "financing_cash_flow": -58773.123072000024,
+    "dividends_paid": -44079.84230400001,
+    "stock_repurchases": null,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2024-12-31",
+      "fetched_at": "2024-12-31T00:00:00Z"
+    }
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "ticker": "005930",
+    "period_end_date": "2020-12-31",
+    "period_type": "annual",
+    "total_assets": 4160000000000.0,
+    "current_assets": 1664000000000.0,
+    "cash_and_equivalents": 499200000000.0,
+    "accounts_receivable": 416000000000.0,
+    "inventory": 499200000000.0,
+    "non_current_assets": 2496000000000.0,
+    "total_liabilities": 1580800000000.0,
+    "current_liabilities": 748800000000.0,
+    "short_term_debt": 166400000000.0,
+    "accounts_payable": 291200000000.0,
+    "long_term_debt": 416000000000.0,
+    "total_equity": 2579200000000.0,
+    "retained_earnings": 1872000000000.0,
+    "provenance": {
+      "source": "dart",
+      "as_of_date": "2020-12-31",
+      "fetched_at": "2020-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "period_end_date": "2021-12-31",
+    "period_type": "annual",
+    "total_assets": 4326400000000.0005,
+    "current_assets": 1730560000000.0002,
+    "cash_and_equivalents": 519168000000.00006,
+    "accounts_receivable": 432640000000.00006,
+    "inventory": 519168000000.00006,
+    "non_current_assets": 2595840000000.0,
+    "total_liabilities": 1644032000000.0002,
+    "current_liabilities": 778752000000.0,
+    "short_term_debt": 173056000000.00003,
+    "accounts_payable": 302848000000.00006,
+    "long_term_debt": 432640000000.00006,
+    "total_equity": 2682368000000.0005,
+    "retained_earnings": 1946880000000.0002,
+    "provenance": {
+      "source": "dart",
+      "as_of_date": "2021-12-31",
+      "fetched_at": "2021-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "period_end_date": "2022-12-31",
+    "period_type": "annual",
+    "total_assets": 4499456000000.0,
+    "current_assets": 1799782400000.0,
+    "cash_and_equivalents": 539934720000.0,
+    "accounts_receivable": 449945600000.0,
+    "inventory": 539934720000.0,
+    "non_current_assets": 2699673600000.0,
+    "total_liabilities": 1709793280000.0,
+    "current_liabilities": 809902080000.0,
+    "short_term_debt": 179978240000.0,
+    "accounts_payable": 314961920000.0,
+    "long_term_debt": 449945600000.0,
+    "total_equity": 2789662720000.0,
+    "retained_earnings": 2024755200000.0,
+    "provenance": {
+      "source": "dart",
+      "as_of_date": "2022-12-31",
+      "fetched_at": "2022-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "period_end_date": "2023-12-31",
+    "period_type": "annual",
+    "total_assets": 4679434240000.001,
+    "current_assets": 1871773696000.0005,
+    "cash_and_equivalents": 561532108800.0001,
+    "accounts_receivable": 467943424000.0001,
+    "inventory": 561532108800.0001,
+    "non_current_assets": 2807660544000.0005,
+    "total_liabilities": 1778185011200.0005,
+    "current_liabilities": 842298163200.0001,
+    "short_term_debt": 187177369600.00003,
+    "accounts_payable": 327560396800.0001,
+    "long_term_debt": 467943424000.0001,
+    "total_equity": 2901249228800.0005,
+    "retained_earnings": 2105745408000.0005,
+    "provenance": {
+      "source": "dart",
+      "as_of_date": "2023-12-31",
+      "fetched_at": "2023-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "period_end_date": "2024-12-31",
+    "period_type": "annual",
+    "total_assets": 4866611609600.001,
+    "current_assets": 1946644643840.0005,
+    "cash_and_equivalents": 583993393152.0001,
+    "accounts_receivable": 486661160960.0001,
+    "inventory": 583993393152.0001,
+    "non_current_assets": 2919966965760.0005,
+    "total_liabilities": 1849312411648.0005,
+    "current_liabilities": 875990089728.0001,
+    "short_term_debt": 194664464384.00003,
+    "accounts_payable": 340662812672.0001,
+    "long_term_debt": 486661160960.0001,
+    "total_equity": 3017299197952.0005,
+    "retained_earnings": 2189975224320.0005,
+    "provenance": {
+      "source": "dart",
+      "as_of_date": "2024-12-31",
+      "fetched_at": "2024-12-31T00:00:00Z"
+    }
+  }
+]

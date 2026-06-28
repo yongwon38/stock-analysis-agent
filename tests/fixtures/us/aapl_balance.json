@@ -1,0 +1,117 @@
+[
+  {
+    "ticker": "AAPL",
+    "period_end_date": "2020-12-31",
+    "period_type": "annual",
+    "total_assets": 5250000.0,
+    "current_assets": 1837499.9999999998,
+    "cash_and_equivalents": 525000.0,
+    "accounts_receivable": 630000.0,
+    "inventory": 420000.0,
+    "non_current_assets": 3412500.0,
+    "total_liabilities": 2362500.0,
+    "current_liabilities": 787500.0,
+    "short_term_debt": 262500.0,
+    "accounts_payable": 315000.0,
+    "long_term_debt": 1050000.0,
+    "total_equity": 2887500.0000000005,
+    "retained_earnings": 1575000.0,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2020-12-31",
+      "fetched_at": "2020-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "period_end_date": "2021-12-31",
+    "period_type": "annual",
+    "total_assets": 5512500.0,
+    "current_assets": 1929374.9999999998,
+    "cash_and_equivalents": 551250.0,
+    "accounts_receivable": 661500.0,
+    "inventory": 441000.0,
+    "non_current_assets": 3583125.0,
+    "total_liabilities": 2480625.0,
+    "current_liabilities": 826875.0,
+    "short_term_debt": 275625.0,
+    "accounts_payable": 330750.0,
+    "long_term_debt": 1102500.0,
+    "total_equity": 3031875.0000000005,
+    "retained_earnings": 1653750.0,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2021-12-31",
+      "fetched_at": "2021-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "period_end_date": "2022-12-31",
+    "period_type": "annual",
+    "total_assets": 5788125.000000001,
+    "current_assets": 2025843.7500000002,
+    "cash_and_equivalents": 578812.5000000001,
+    "accounts_receivable": 694575.0000000001,
+    "inventory": 463050.00000000006,
+    "non_current_assets": 3762281.250000001,
+    "total_liabilities": 2604656.2500000005,
+    "current_liabilities": 868218.7500000001,
+    "short_term_debt": 289406.25000000006,
+    "accounts_payable": 347287.50000000006,
+    "long_term_debt": 1157625.0000000002,
+    "total_equity": 3183468.750000001,
+    "retained_earnings": 1736437.5000000002,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2022-12-31",
+      "fetched_at": "2022-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "period_end_date": "2023-12-31",
+    "period_type": "annual",
+    "total_assets": 6077531.250000001,
+    "current_assets": 2127135.9375,
+    "cash_and_equivalents": 607753.1250000001,
+    "accounts_receivable": 729303.7500000001,
+    "inventory": 486202.50000000006,
+    "non_current_assets": 3950395.312500001,
+    "total_liabilities": 2734889.0625000005,
+    "current_liabilities": 911629.6875000001,
+    "short_term_debt": 303876.56250000006,
+    "accounts_payable": 364651.87500000006,
+    "long_term_debt": 1215506.2500000002,
+    "total_equity": 3342642.187500001,
+    "retained_earnings": 1823259.3750000002,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2023-12-31",
+      "fetched_at": "2023-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "period_end_date": "2024-12-31",
+    "period_type": "annual",
+    "total_assets": 6381407.812500002,
+    "current_assets": 2233492.7343750005,
+    "cash_and_equivalents": 638140.7812500002,
+    "accounts_receivable": 765768.9375000002,
+    "inventory": 510512.6250000002,
+    "non_current_assets": 4147915.0781250014,
+    "total_liabilities": 2871633.515625001,
+    "current_liabilities": 957211.1718750002,
+    "short_term_debt": 319070.3906250001,
+    "accounts_payable": 382884.4687500001,
+    "long_term_debt": 1276281.5625000005,
+    "total_equity": 3509774.2968750014,
+    "retained_earnings": 1914422.3437500005,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2024-12-31",
+      "fetched_at": "2024-12-31T00:00:00Z"
+    }
+  }
+]

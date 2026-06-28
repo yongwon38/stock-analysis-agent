@@ -1,0 +1,4034 @@
+[
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-01",
+    "open": 150.0,
+    "high": 152.0,
+    "low": 148.0,
+    "close": 150.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-02",
+    "open": 150.1,
+    "high": 152.1,
+    "low": 148.1,
+    "close": 150.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-03",
+    "open": 150.2,
+    "high": 152.2,
+    "low": 148.2,
+    "close": 150.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-04",
+    "open": 150.3,
+    "high": 152.3,
+    "low": 148.3,
+    "close": 150.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-05",
+    "open": 150.4,
+    "high": 152.4,
+    "low": 148.4,
+    "close": 150.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-06",
+    "open": 150.5,
+    "high": 152.5,
+    "low": 148.5,
+    "close": 150.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-07",
+    "open": 150.6,
+    "high": 152.6,
+    "low": 148.6,
+    "close": 150.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-08",
+    "open": 150.7,
+    "high": 152.7,
+    "low": 148.7,
+    "close": 150.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-09",
+    "open": 150.8,
+    "high": 152.8,
+    "low": 148.8,
+    "close": 150.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-10",
+    "open": 150.9,
+    "high": 152.9,
+    "low": 148.9,
+    "close": 150.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-11",
+    "open": 151.0,
+    "high": 153.0,
+    "low": 149.0,
+    "close": 151.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-12",
+    "open": 151.1,
+    "high": 153.1,
+    "low": 149.1,
+    "close": 151.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-13",
+    "open": 151.2,
+    "high": 153.2,
+    "low": 149.2,
+    "close": 151.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-14",
+    "open": 151.3,
+    "high": 153.3,
+    "low": 149.3,
+    "close": 151.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-15",
+    "open": 151.4,
+    "high": 153.4,
+    "low": 149.4,
+    "close": 151.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-16",
+    "open": 151.5,
+    "high": 153.5,
+    "low": 149.5,
+    "close": 151.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-17",
+    "open": 151.6,
+    "high": 153.6,
+    "low": 149.6,
+    "close": 151.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-18",
+    "open": 151.7,
+    "high": 153.7,
+    "low": 149.7,
+    "close": 151.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-19",
+    "open": 151.8,
+    "high": 153.8,
+    "low": 149.8,
+    "close": 151.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-20",
+    "open": 151.9,
+    "high": 153.9,
+    "low": 149.9,
+    "close": 151.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-21",
+    "open": 152.0,
+    "high": 154.0,
+    "low": 150.0,
+    "close": 152.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-22",
+    "open": 152.1,
+    "high": 154.1,
+    "low": 150.1,
+    "close": 152.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-23",
+    "open": 152.2,
+    "high": 154.2,
+    "low": 150.2,
+    "close": 152.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-24",
+    "open": 152.3,
+    "high": 154.3,
+    "low": 150.3,
+    "close": 152.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-25",
+    "open": 152.4,
+    "high": 154.4,
+    "low": 150.4,
+    "close": 152.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-26",
+    "open": 152.5,
+    "high": 154.5,
+    "low": 150.5,
+    "close": 152.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-27",
+    "open": 152.6,
+    "high": 154.6,
+    "low": 150.6,
+    "close": 152.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-28",
+    "open": 152.7,
+    "high": 154.7,
+    "low": 150.7,
+    "close": 152.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-29",
+    "open": 152.8,
+    "high": 154.8,
+    "low": 150.8,
+    "close": 152.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-30",
+    "open": 152.9,
+    "high": 154.9,
+    "low": 150.9,
+    "close": 152.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-01-31",
+    "open": 153.0,
+    "high": 155.0,
+    "low": 151.0,
+    "close": 153.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-01",
+    "open": 153.1,
+    "high": 155.1,
+    "low": 151.1,
+    "close": 153.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-02",
+    "open": 153.2,
+    "high": 155.2,
+    "low": 151.2,
+    "close": 153.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-03",
+    "open": 153.3,
+    "high": 155.3,
+    "low": 151.3,
+    "close": 153.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-04",
+    "open": 153.4,
+    "high": 155.4,
+    "low": 151.4,
+    "close": 153.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-05",
+    "open": 153.5,
+    "high": 155.5,
+    "low": 151.5,
+    "close": 153.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-06",
+    "open": 153.6,
+    "high": 155.6,
+    "low": 151.6,
+    "close": 153.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-07",
+    "open": 153.7,
+    "high": 155.7,
+    "low": 151.7,
+    "close": 153.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-08",
+    "open": 153.8,
+    "high": 155.8,
+    "low": 151.8,
+    "close": 153.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-09",
+    "open": 153.9,
+    "high": 155.9,
+    "low": 151.9,
+    "close": 153.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-10",
+    "open": 154.0,
+    "high": 156.0,
+    "low": 152.0,
+    "close": 154.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-11",
+    "open": 154.1,
+    "high": 156.1,
+    "low": 152.1,
+    "close": 154.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-12",
+    "open": 154.2,
+    "high": 156.2,
+    "low": 152.2,
+    "close": 154.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-13",
+    "open": 154.3,
+    "high": 156.3,
+    "low": 152.3,
+    "close": 154.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-14",
+    "open": 154.4,
+    "high": 156.4,
+    "low": 152.4,
+    "close": 154.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-15",
+    "open": 154.5,
+    "high": 156.5,
+    "low": 152.5,
+    "close": 154.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-16",
+    "open": 154.6,
+    "high": 156.6,
+    "low": 152.6,
+    "close": 154.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-17",
+    "open": 154.7,
+    "high": 156.7,
+    "low": 152.7,
+    "close": 154.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-18",
+    "open": 154.8,
+    "high": 156.8,
+    "low": 152.8,
+    "close": 154.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-19",
+    "open": 154.9,
+    "high": 156.9,
+    "low": 152.9,
+    "close": 154.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-20",
+    "open": 155.0,
+    "high": 157.0,
+    "low": 153.0,
+    "close": 155.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-21",
+    "open": 155.1,
+    "high": 157.1,
+    "low": 153.1,
+    "close": 155.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-22",
+    "open": 155.2,
+    "high": 157.2,
+    "low": 153.2,
+    "close": 155.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-23",
+    "open": 155.3,
+    "high": 157.3,
+    "low": 153.3,
+    "close": 155.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-24",
+    "open": 155.4,
+    "high": 157.4,
+    "low": 153.4,
+    "close": 155.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-25",
+    "open": 155.5,
+    "high": 157.5,
+    "low": 153.5,
+    "close": 155.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-26",
+    "open": 155.6,
+    "high": 157.6,
+    "low": 153.6,
+    "close": 155.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-27",
+    "open": 155.7,
+    "high": 157.7,
+    "low": 153.7,
+    "close": 155.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-02-28",
+    "open": 155.8,
+    "high": 157.8,
+    "low": 153.8,
+    "close": 155.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-01",
+    "open": 155.9,
+    "high": 157.9,
+    "low": 153.9,
+    "close": 155.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-02",
+    "open": 156.0,
+    "high": 158.0,
+    "low": 154.0,
+    "close": 156.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-03",
+    "open": 156.1,
+    "high": 158.1,
+    "low": 154.1,
+    "close": 156.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-04",
+    "open": 156.2,
+    "high": 158.2,
+    "low": 154.2,
+    "close": 156.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-05",
+    "open": 156.3,
+    "high": 158.3,
+    "low": 154.3,
+    "close": 156.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-06",
+    "open": 156.4,
+    "high": 158.4,
+    "low": 154.4,
+    "close": 156.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-07",
+    "open": 156.5,
+    "high": 158.5,
+    "low": 154.5,
+    "close": 156.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-08",
+    "open": 156.6,
+    "high": 158.6,
+    "low": 154.6,
+    "close": 156.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-09",
+    "open": 156.7,
+    "high": 158.7,
+    "low": 154.7,
+    "close": 156.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-10",
+    "open": 156.8,
+    "high": 158.8,
+    "low": 154.8,
+    "close": 156.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-11",
+    "open": 156.9,
+    "high": 158.9,
+    "low": 154.9,
+    "close": 156.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-12",
+    "open": 157.0,
+    "high": 159.0,
+    "low": 155.0,
+    "close": 157.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-13",
+    "open": 157.1,
+    "high": 159.1,
+    "low": 155.1,
+    "close": 157.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-14",
+    "open": 157.2,
+    "high": 159.2,
+    "low": 155.2,
+    "close": 157.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-15",
+    "open": 157.3,
+    "high": 159.3,
+    "low": 155.3,
+    "close": 157.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-16",
+    "open": 157.4,
+    "high": 159.4,
+    "low": 155.4,
+    "close": 157.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-17",
+    "open": 157.5,
+    "high": 159.5,
+    "low": 155.5,
+    "close": 157.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-18",
+    "open": 157.6,
+    "high": 159.6,
+    "low": 155.6,
+    "close": 157.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-19",
+    "open": 157.7,
+    "high": 159.7,
+    "low": 155.7,
+    "close": 157.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-20",
+    "open": 157.8,
+    "high": 159.8,
+    "low": 155.8,
+    "close": 157.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-21",
+    "open": 157.9,
+    "high": 159.9,
+    "low": 155.9,
+    "close": 157.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-22",
+    "open": 158.0,
+    "high": 160.0,
+    "low": 156.0,
+    "close": 158.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-23",
+    "open": 158.1,
+    "high": 160.1,
+    "low": 156.1,
+    "close": 158.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-24",
+    "open": 158.2,
+    "high": 160.2,
+    "low": 156.2,
+    "close": 158.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-25",
+    "open": 158.3,
+    "high": 160.3,
+    "low": 156.3,
+    "close": 158.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-26",
+    "open": 158.4,
+    "high": 160.4,
+    "low": 156.4,
+    "close": 158.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-27",
+    "open": 158.5,
+    "high": 160.5,
+    "low": 156.5,
+    "close": 158.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-28",
+    "open": 158.6,
+    "high": 160.6,
+    "low": 156.6,
+    "close": 158.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-29",
+    "open": 158.7,
+    "high": 160.7,
+    "low": 156.7,
+    "close": 158.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-30",
+    "open": 158.8,
+    "high": 160.8,
+    "low": 156.8,
+    "close": 158.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-03-31",
+    "open": 158.9,
+    "high": 160.9,
+    "low": 156.9,
+    "close": 158.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-01",
+    "open": 159.0,
+    "high": 161.0,
+    "low": 157.0,
+    "close": 159.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-02",
+    "open": 159.1,
+    "high": 161.1,
+    "low": 157.1,
+    "close": 159.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-03",
+    "open": 159.2,
+    "high": 161.2,
+    "low": 157.2,
+    "close": 159.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-04",
+    "open": 159.3,
+    "high": 161.3,
+    "low": 157.3,
+    "close": 159.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-05",
+    "open": 159.4,
+    "high": 161.4,
+    "low": 157.4,
+    "close": 159.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-06",
+    "open": 159.5,
+    "high": 161.5,
+    "low": 157.5,
+    "close": 159.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-07",
+    "open": 159.6,
+    "high": 161.6,
+    "low": 157.6,
+    "close": 159.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-08",
+    "open": 159.7,
+    "high": 161.7,
+    "low": 157.7,
+    "close": 159.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-09",
+    "open": 159.8,
+    "high": 161.8,
+    "low": 157.8,
+    "close": 159.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-10",
+    "open": 159.9,
+    "high": 161.9,
+    "low": 157.9,
+    "close": 159.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-11",
+    "open": 160.0,
+    "high": 162.0,
+    "low": 158.0,
+    "close": 160.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-12",
+    "open": 160.1,
+    "high": 162.1,
+    "low": 158.1,
+    "close": 160.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-13",
+    "open": 160.2,
+    "high": 162.2,
+    "low": 158.2,
+    "close": 160.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-14",
+    "open": 160.3,
+    "high": 162.3,
+    "low": 158.3,
+    "close": 160.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-15",
+    "open": 160.4,
+    "high": 162.4,
+    "low": 158.4,
+    "close": 160.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-16",
+    "open": 160.5,
+    "high": 162.5,
+    "low": 158.5,
+    "close": 160.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-17",
+    "open": 160.6,
+    "high": 162.6,
+    "low": 158.6,
+    "close": 160.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-18",
+    "open": 160.7,
+    "high": 162.7,
+    "low": 158.7,
+    "close": 160.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-19",
+    "open": 160.8,
+    "high": 162.8,
+    "low": 158.8,
+    "close": 160.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-20",
+    "open": 160.9,
+    "high": 162.9,
+    "low": 158.9,
+    "close": 160.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-21",
+    "open": 161.0,
+    "high": 163.0,
+    "low": 159.0,
+    "close": 161.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-22",
+    "open": 161.1,
+    "high": 163.1,
+    "low": 159.1,
+    "close": 161.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-23",
+    "open": 161.2,
+    "high": 163.2,
+    "low": 159.2,
+    "close": 161.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-24",
+    "open": 161.3,
+    "high": 163.3,
+    "low": 159.3,
+    "close": 161.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-25",
+    "open": 161.4,
+    "high": 163.4,
+    "low": 159.4,
+    "close": 161.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-26",
+    "open": 161.5,
+    "high": 163.5,
+    "low": 159.5,
+    "close": 161.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-27",
+    "open": 161.6,
+    "high": 163.6,
+    "low": 159.6,
+    "close": 161.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-28",
+    "open": 161.7,
+    "high": 163.7,
+    "low": 159.7,
+    "close": 161.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-29",
+    "open": 161.8,
+    "high": 163.8,
+    "low": 159.8,
+    "close": 161.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-04-30",
+    "open": 161.9,
+    "high": 163.9,
+    "low": 159.9,
+    "close": 161.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-01",
+    "open": 162.0,
+    "high": 164.0,
+    "low": 160.0,
+    "close": 162.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-02",
+    "open": 162.1,
+    "high": 164.1,
+    "low": 160.1,
+    "close": 162.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-03",
+    "open": 162.2,
+    "high": 164.2,
+    "low": 160.2,
+    "close": 162.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-04",
+    "open": 162.3,
+    "high": 164.3,
+    "low": 160.3,
+    "close": 162.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-05",
+    "open": 162.4,
+    "high": 164.4,
+    "low": 160.4,
+    "close": 162.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-06",
+    "open": 162.5,
+    "high": 164.5,
+    "low": 160.5,
+    "close": 162.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-07",
+    "open": 162.6,
+    "high": 164.6,
+    "low": 160.6,
+    "close": 162.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-08",
+    "open": 162.7,
+    "high": 164.7,
+    "low": 160.7,
+    "close": 162.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-09",
+    "open": 162.8,
+    "high": 164.8,
+    "low": 160.8,
+    "close": 162.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-10",
+    "open": 162.9,
+    "high": 164.9,
+    "low": 160.9,
+    "close": 162.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-11",
+    "open": 163.0,
+    "high": 165.0,
+    "low": 161.0,
+    "close": 163.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-12",
+    "open": 163.1,
+    "high": 165.1,
+    "low": 161.1,
+    "close": 163.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-13",
+    "open": 163.2,
+    "high": 165.2,
+    "low": 161.2,
+    "close": 163.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-14",
+    "open": 163.3,
+    "high": 165.3,
+    "low": 161.3,
+    "close": 163.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-15",
+    "open": 163.4,
+    "high": 165.4,
+    "low": 161.4,
+    "close": 163.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-16",
+    "open": 163.5,
+    "high": 165.5,
+    "low": 161.5,
+    "close": 163.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-17",
+    "open": 163.6,
+    "high": 165.6,
+    "low": 161.6,
+    "close": 163.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-18",
+    "open": 163.7,
+    "high": 165.7,
+    "low": 161.7,
+    "close": 163.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-19",
+    "open": 163.8,
+    "high": 165.8,
+    "low": 161.8,
+    "close": 163.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-20",
+    "open": 163.9,
+    "high": 165.9,
+    "low": 161.9,
+    "close": 163.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-21",
+    "open": 164.0,
+    "high": 166.0,
+    "low": 162.0,
+    "close": 164.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-22",
+    "open": 164.1,
+    "high": 166.1,
+    "low": 162.1,
+    "close": 164.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-23",
+    "open": 164.2,
+    "high": 166.2,
+    "low": 162.2,
+    "close": 164.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-24",
+    "open": 164.3,
+    "high": 166.3,
+    "low": 162.3,
+    "close": 164.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-25",
+    "open": 164.4,
+    "high": 166.4,
+    "low": 162.4,
+    "close": 164.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-26",
+    "open": 164.5,
+    "high": 166.5,
+    "low": 162.5,
+    "close": 164.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-27",
+    "open": 164.6,
+    "high": 166.6,
+    "low": 162.6,
+    "close": 164.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-28",
+    "open": 164.7,
+    "high": 166.7,
+    "low": 162.7,
+    "close": 164.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-29",
+    "open": 164.8,
+    "high": 166.8,
+    "low": 162.8,
+    "close": 164.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-30",
+    "open": 164.9,
+    "high": 166.9,
+    "low": 162.9,
+    "close": 164.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-05-31",
+    "open": 165.0,
+    "high": 167.0,
+    "low": 163.0,
+    "close": 165.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-01",
+    "open": 165.1,
+    "high": 167.1,
+    "low": 163.1,
+    "close": 165.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-02",
+    "open": 165.2,
+    "high": 167.2,
+    "low": 163.2,
+    "close": 165.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-03",
+    "open": 165.3,
+    "high": 167.3,
+    "low": 163.3,
+    "close": 165.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-04",
+    "open": 165.4,
+    "high": 167.4,
+    "low": 163.4,
+    "close": 165.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-05",
+    "open": 165.5,
+    "high": 167.5,
+    "low": 163.5,
+    "close": 165.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-06",
+    "open": 165.6,
+    "high": 167.6,
+    "low": 163.6,
+    "close": 165.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-07",
+    "open": 165.7,
+    "high": 167.7,
+    "low": 163.7,
+    "close": 165.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-08",
+    "open": 165.8,
+    "high": 167.8,
+    "low": 163.8,
+    "close": 165.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-09",
+    "open": 165.9,
+    "high": 167.9,
+    "low": 163.9,
+    "close": 165.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-10",
+    "open": 166.0,
+    "high": 168.0,
+    "low": 164.0,
+    "close": 166.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-11",
+    "open": 166.1,
+    "high": 168.1,
+    "low": 164.1,
+    "close": 166.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-12",
+    "open": 166.2,
+    "high": 168.2,
+    "low": 164.2,
+    "close": 166.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-13",
+    "open": 166.3,
+    "high": 168.3,
+    "low": 164.3,
+    "close": 166.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-14",
+    "open": 166.4,
+    "high": 168.4,
+    "low": 164.4,
+    "close": 166.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-15",
+    "open": 166.5,
+    "high": 168.5,
+    "low": 164.5,
+    "close": 166.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-16",
+    "open": 166.6,
+    "high": 168.6,
+    "low": 164.6,
+    "close": 166.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-17",
+    "open": 166.7,
+    "high": 168.7,
+    "low": 164.7,
+    "close": 166.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-18",
+    "open": 166.8,
+    "high": 168.8,
+    "low": 164.8,
+    "close": 166.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-19",
+    "open": 166.9,
+    "high": 168.9,
+    "low": 164.9,
+    "close": 166.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-20",
+    "open": 167.0,
+    "high": 169.0,
+    "low": 165.0,
+    "close": 167.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-21",
+    "open": 167.1,
+    "high": 169.1,
+    "low": 165.1,
+    "close": 167.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-22",
+    "open": 167.2,
+    "high": 169.2,
+    "low": 165.2,
+    "close": 167.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-23",
+    "open": 167.3,
+    "high": 169.3,
+    "low": 165.3,
+    "close": 167.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-24",
+    "open": 167.4,
+    "high": 169.4,
+    "low": 165.4,
+    "close": 167.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-25",
+    "open": 167.5,
+    "high": 169.5,
+    "low": 165.5,
+    "close": 167.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-26",
+    "open": 167.6,
+    "high": 169.6,
+    "low": 165.6,
+    "close": 167.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-27",
+    "open": 167.7,
+    "high": 169.7,
+    "low": 165.7,
+    "close": 167.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-28",
+    "open": 167.8,
+    "high": 169.8,
+    "low": 165.8,
+    "close": 167.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-29",
+    "open": 167.9,
+    "high": 169.9,
+    "low": 165.9,
+    "close": 167.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-06-30",
+    "open": 168.0,
+    "high": 170.0,
+    "low": 166.0,
+    "close": 168.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-01",
+    "open": 168.1,
+    "high": 170.1,
+    "low": 166.1,
+    "close": 168.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-02",
+    "open": 168.2,
+    "high": 170.2,
+    "low": 166.2,
+    "close": 168.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-03",
+    "open": 168.3,
+    "high": 170.3,
+    "low": 166.3,
+    "close": 168.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-04",
+    "open": 168.4,
+    "high": 170.4,
+    "low": 166.4,
+    "close": 168.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-05",
+    "open": 168.5,
+    "high": 170.5,
+    "low": 166.5,
+    "close": 168.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-06",
+    "open": 168.6,
+    "high": 170.6,
+    "low": 166.6,
+    "close": 168.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-07",
+    "open": 168.7,
+    "high": 170.7,
+    "low": 166.7,
+    "close": 168.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-08",
+    "open": 168.8,
+    "high": 170.8,
+    "low": 166.8,
+    "close": 168.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-09",
+    "open": 168.9,
+    "high": 170.9,
+    "low": 166.9,
+    "close": 168.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-10",
+    "open": 169.0,
+    "high": 171.0,
+    "low": 167.0,
+    "close": 169.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-11",
+    "open": 169.1,
+    "high": 171.1,
+    "low": 167.1,
+    "close": 169.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-12",
+    "open": 169.2,
+    "high": 171.2,
+    "low": 167.2,
+    "close": 169.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-13",
+    "open": 169.3,
+    "high": 171.3,
+    "low": 167.3,
+    "close": 169.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-14",
+    "open": 169.4,
+    "high": 171.4,
+    "low": 167.4,
+    "close": 169.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-15",
+    "open": 169.5,
+    "high": 171.5,
+    "low": 167.5,
+    "close": 169.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-16",
+    "open": 169.6,
+    "high": 171.6,
+    "low": 167.6,
+    "close": 169.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-17",
+    "open": 169.7,
+    "high": 171.7,
+    "low": 167.7,
+    "close": 169.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-18",
+    "open": 169.8,
+    "high": 171.8,
+    "low": 167.8,
+    "close": 169.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-19",
+    "open": 169.9,
+    "high": 171.9,
+    "low": 167.9,
+    "close": 169.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-20",
+    "open": 170.0,
+    "high": 172.0,
+    "low": 168.0,
+    "close": 170.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-21",
+    "open": 170.1,
+    "high": 172.1,
+    "low": 168.1,
+    "close": 170.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-22",
+    "open": 170.2,
+    "high": 172.2,
+    "low": 168.2,
+    "close": 170.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-23",
+    "open": 170.3,
+    "high": 172.3,
+    "low": 168.3,
+    "close": 170.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-24",
+    "open": 170.4,
+    "high": 172.4,
+    "low": 168.4,
+    "close": 170.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-25",
+    "open": 170.5,
+    "high": 172.5,
+    "low": 168.5,
+    "close": 170.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-26",
+    "open": 170.6,
+    "high": 172.6,
+    "low": 168.6,
+    "close": 170.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-27",
+    "open": 170.7,
+    "high": 172.7,
+    "low": 168.7,
+    "close": 170.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-28",
+    "open": 170.8,
+    "high": 172.8,
+    "low": 168.8,
+    "close": 170.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-29",
+    "open": 170.9,
+    "high": 172.9,
+    "low": 168.9,
+    "close": 170.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-30",
+    "open": 171.0,
+    "high": 173.0,
+    "low": 169.0,
+    "close": 171.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-07-31",
+    "open": 171.1,
+    "high": 173.1,
+    "low": 169.1,
+    "close": 171.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-01",
+    "open": 171.2,
+    "high": 173.2,
+    "low": 169.2,
+    "close": 171.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-02",
+    "open": 171.3,
+    "high": 173.3,
+    "low": 169.3,
+    "close": 171.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-03",
+    "open": 171.4,
+    "high": 173.4,
+    "low": 169.4,
+    "close": 171.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-04",
+    "open": 171.5,
+    "high": 173.5,
+    "low": 169.5,
+    "close": 171.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-05",
+    "open": 171.6,
+    "high": 173.6,
+    "low": 169.6,
+    "close": 171.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-06",
+    "open": 171.7,
+    "high": 173.7,
+    "low": 169.7,
+    "close": 171.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-07",
+    "open": 171.8,
+    "high": 173.8,
+    "low": 169.8,
+    "close": 171.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-08",
+    "open": 171.9,
+    "high": 173.9,
+    "low": 169.9,
+    "close": 171.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-09",
+    "open": 172.0,
+    "high": 174.0,
+    "low": 170.0,
+    "close": 172.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-10",
+    "open": 172.1,
+    "high": 174.1,
+    "low": 170.1,
+    "close": 172.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-11",
+    "open": 172.2,
+    "high": 174.2,
+    "low": 170.2,
+    "close": 172.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-12",
+    "open": 172.3,
+    "high": 174.3,
+    "low": 170.3,
+    "close": 172.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-13",
+    "open": 172.4,
+    "high": 174.4,
+    "low": 170.4,
+    "close": 172.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-14",
+    "open": 172.5,
+    "high": 174.5,
+    "low": 170.5,
+    "close": 172.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-15",
+    "open": 172.6,
+    "high": 174.6,
+    "low": 170.6,
+    "close": 172.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-16",
+    "open": 172.7,
+    "high": 174.7,
+    "low": 170.7,
+    "close": 172.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-17",
+    "open": 172.8,
+    "high": 174.8,
+    "low": 170.8,
+    "close": 172.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-18",
+    "open": 172.9,
+    "high": 174.9,
+    "low": 170.9,
+    "close": 172.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-19",
+    "open": 173.0,
+    "high": 175.0,
+    "low": 171.0,
+    "close": 173.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-20",
+    "open": 173.1,
+    "high": 175.1,
+    "low": 171.1,
+    "close": 173.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-21",
+    "open": 173.2,
+    "high": 175.2,
+    "low": 171.2,
+    "close": 173.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-22",
+    "open": 173.3,
+    "high": 175.3,
+    "low": 171.3,
+    "close": 173.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-23",
+    "open": 173.4,
+    "high": 175.4,
+    "low": 171.4,
+    "close": 173.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-24",
+    "open": 173.5,
+    "high": 175.5,
+    "low": 171.5,
+    "close": 173.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-25",
+    "open": 173.6,
+    "high": 175.6,
+    "low": 171.6,
+    "close": 173.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-26",
+    "open": 173.7,
+    "high": 175.7,
+    "low": 171.7,
+    "close": 173.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-27",
+    "open": 173.8,
+    "high": 175.8,
+    "low": 171.8,
+    "close": 173.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-28",
+    "open": 173.9,
+    "high": 175.9,
+    "low": 171.9,
+    "close": 173.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-29",
+    "open": 174.0,
+    "high": 176.0,
+    "low": 172.0,
+    "close": 174.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-30",
+    "open": 174.1,
+    "high": 176.1,
+    "low": 172.1,
+    "close": 174.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-08-31",
+    "open": 174.2,
+    "high": 176.2,
+    "low": 172.2,
+    "close": 174.2,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-09-01",
+    "open": 174.3,
+    "high": 176.3,
+    "low": 172.3,
+    "close": 174.3,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-09-02",
+    "open": 174.4,
+    "high": 176.4,
+    "low": 172.4,
+    "close": 174.4,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-09-03",
+    "open": 174.5,
+    "high": 176.5,
+    "low": 172.5,
+    "close": 174.5,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-09-04",
+    "open": 174.6,
+    "high": 176.6,
+    "low": 172.6,
+    "close": 174.6,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-09-05",
+    "open": 174.7,
+    "high": 176.7,
+    "low": 172.7,
+    "close": 174.7,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-09-06",
+    "open": 174.8,
+    "high": 176.8,
+    "low": 172.8,
+    "close": 174.8,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-09-07",
+    "open": 174.9,
+    "high": 176.9,
+    "low": 172.9,
+    "close": 174.9,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-09-08",
+    "open": 175.0,
+    "high": 177.0,
+    "low": 173.0,
+    "close": 175.0,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "market": "US",
+    "date": "2025-09-09",
+    "open": 175.1,
+    "high": 177.1,
+    "low": 173.1,
+    "close": 175.1,
+    "adjusted_close": null,
+    "volume": 10000000,
+    "provenance": {
+      "source": "yfinance",
+      "as_of_date": "2025-12-31",
+      "fetched_at": "2025-12-31T00:00:00Z"
+    }
+  }
+]

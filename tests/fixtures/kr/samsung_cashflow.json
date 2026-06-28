@@ -1,0 +1,97 @@
+[
+  {
+    "ticker": "005930",
+    "fiscal_year": 2020,
+    "fiscal_quarter": null,
+    "period_type": "annual",
+    "period_end_date": "2020-12-31",
+    "operating_cash_flow": 318000000000.0,
+    "capex": -127200000000.0,
+    "free_cash_flow": 190800000000.0,
+    "investing_cash_flow": -143100000000.0,
+    "financing_cash_flow": -31800000000.0,
+    "dividends_paid": -25440000000.0,
+    "stock_repurchases": null,
+    "provenance": {
+      "source": "dart",
+      "as_of_date": "2020-12-31",
+      "fetched_at": "2020-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "fiscal_year": 2021,
+    "fiscal_quarter": null,
+    "period_type": "annual",
+    "period_end_date": "2021-12-31",
+    "operating_cash_flow": 337080000000.00006,
+    "capex": -134832000000.00003,
+    "free_cash_flow": 202248000000.00003,
+    "investing_cash_flow": -151686000000.00003,
+    "financing_cash_flow": -33708000000.000008,
+    "dividends_paid": -26966400000.000004,
+    "stock_repurchases": null,
+    "provenance": {
+      "source": "dart",
+      "as_of_date": "2021-12-31",
+      "fetched_at": "2021-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "fiscal_year": 2022,
+    "fiscal_quarter": null,
+    "period_type": "annual",
+    "period_end_date": "2022-12-31",
+    "operating_cash_flow": 357304800000.0,
+    "capex": -142921920000.0,
+    "free_cash_flow": 214382880000.0,
+    "investing_cash_flow": -160787160000.0,
+    "financing_cash_flow": -35730480000.0,
+    "dividends_paid": -28584384000.0,
+    "stock_repurchases": null,
+    "provenance": {
+      "source": "dart",
+      "as_of_date": "2022-12-31",
+      "fetched_at": "2022-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "fiscal_year": 2023,
+    "fiscal_quarter": null,
+    "period_type": "annual",
+    "period_end_date": "2023-12-31",
+    "operating_cash_flow": 378743088000.0001,
+    "capex": -151497235200.00006,
+    "free_cash_flow": 227245852800.00006,
+    "investing_cash_flow": -170434389600.00006,
+    "financing_cash_flow": -37874308800.000015,
+    "dividends_paid": -30299447040.00001,
+    "stock_repurchases": null,
+    "provenance": {
+      "source": "dart",
+      "as_of_date": "2023-12-31",
+      "fetched_at": "2023-12-31T00:00:00Z"
+    }
+  },
+  {
+    "ticker": "005930",
+    "fiscal_year": 2024,
+    "fiscal_quarter": null,
+    "period_type": "annual",
+    "period_end_date": "2024-12-31",
+    "operating_cash_flow": 401467673280.00006,
+    "capex": -160587069312.00003,
+    "free_cash_flow": 240880603968.00003,
+    "investing_cash_flow": -180660452976.00003,
+    "financing_cash_flow": -40146767328.00001,
+    "dividends_paid": -32117413862.400005,
+    "stock_repurchases": null,
+    "provenance": {
+      "source": "dart",
+      "as_of_date": "2024-12-31",
+      "fetched_at": "2024-12-31T00:00:00Z"
+    }
+  }
+]
