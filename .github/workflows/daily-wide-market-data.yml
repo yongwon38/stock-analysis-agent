@@ -29,5 +29,9 @@ jobs:
           python-version: "3.12"
 
       - name: Run daily wide market data batch
+        env:
+          DAYS: ${{ github.event.inputs.days || '7' }}
         run: |
-          uv run python -m apps.cli.main pipeline run-daily-wide-market-data --days "${{ github.event.inputs.days || '7' }}"
+          echo "Running daily wide market data batch with DAYS=${DAYS}"
+          uv run python -m apps.cli.main pipeline run-daily-wide-market-data --help
+          uv run python -m apps.cli.main pipeline run-daily-wide-market-data --days "${DAYS}"
