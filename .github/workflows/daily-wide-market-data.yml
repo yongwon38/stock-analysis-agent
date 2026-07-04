@@ -33,5 +33,5 @@ jobs:
           DAYS: ${{ github.event.inputs.days || '7' }}
         run: |
           echo "Running daily wide market data batch with DAYS=${DAYS}"
-          uv run python -m apps.cli.main pipeline run-daily-wide-market-data --help
-          uv run python -m apps.cli.main pipeline run-daily-wide-market-data --days "${DAYS}"
+          uv run python -m pipelines.run_daily_wide_market_data --help
+          uv run python -m pipelines.run_daily_wide_market_data --days "${DAYS}"
