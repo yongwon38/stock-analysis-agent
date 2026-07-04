@@ -1,0 +1,33 @@
+name: Daily wide market data
+
+on:
+  schedule:
+    - cron: "30 9 * * *"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Lookback days from the KST run date"
+        required: false
+        default: "7"
+
+jobs:
+  daily-wide-market-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run daily wide market data batch
+        run: |
+          uv run python -m apps.cli.main pipeline run-daily-wide-market-data --days "${{ github.event.inputs.days || '7' }}"
